@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class SpawnManager : MonoBehaviour {
     [Header("Spawn Positions")]
-    [Tooltip("IMPORTANT : The spawn points have to be references in a special order, First point is N then rotating Clockwise")]
+    [Tooltip("IMPORTANT : The spawn points have to be references in a special order : \nFirst point is North then rotating Clockwise")] //L'ordre sera utilisé pour la depth des Sprites Renderers
     [SerializeField] Transform[] spawnPositions;
 
     [Header("Enemies Prefab")]
@@ -29,6 +29,7 @@ public class SpawnManager : MonoBehaviour {
         if (enemiIndex <= -1) {
             enemiIndex = Random.Range(0, enemiesPrefabs.Length);
         }
+
         Instantiate(enemiesPrefabs[enemiIndex], spawnPositions[positionIndex].position, Quaternion.identity);
     }
 }
