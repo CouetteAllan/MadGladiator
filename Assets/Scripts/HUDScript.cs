@@ -25,9 +25,8 @@ public class HUDScript : MonoBehaviour
 
     }
 
-    // Update is called once per frame
-    void Update()
+    public void DisplayInputs()
     {
-        
-    }
+
+    } 
 }

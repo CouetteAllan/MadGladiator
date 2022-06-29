@@ -27,5 +27,9 @@ public class UIManager : MonoBehaviour
         instance = this;
     }
 
+    private HUDScript hud;
+    private GameObject hudCanvas;
 
+
+    
 }
