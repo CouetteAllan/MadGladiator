@@ -26,4 +26,6 @@ public class UIManager : MonoBehaviour
     {
         instance = this;
     }
+
+
 }

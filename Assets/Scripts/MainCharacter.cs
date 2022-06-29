@@ -10,14 +10,12 @@ public class MainCharacter : MonoBehaviour
     {
         get => Lives <= 0;
     }
-
-    // Start is called before the first frame update
+    
     void Start()
     {
         Debug.Log(Lives);
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
@@ -26,5 +24,12 @@ public class MainCharacter : MonoBehaviour
             Debug.Log(Lives);
             Debug.Log("Dead is" + Dead);
         }
+
+        if (Dead) //Si on a plus de vie, on passe le jeu en mode Game Over
+        {
+            GameManager.Instance.CurrentGameStates = GameManager.GameStates.GameOver;
+        }
     }
+
+    
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3383512993671650769}
   - component: {fileID: 9015471789325438559}
   m_Layer: 0
-  m_Name: Gladiator
+  m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -82,6 +82,38 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &5495909635074721675
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5021198527339389542}
+  m_Layer: 0
+  m_Name: Feet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5021198527339389542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5495909635074721675}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8455805911410944423}
+  - {fileID: 5723220944925187581}
+  m_Father: {fileID: 8226274248736234172}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8226274248736234174
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,8 +145,7 @@ Transform:
   m_LocalScale: {x: 0.75, y: 1, z: 1}
   m_Children:
   - {fileID: 3383512993671650769}
-  - {fileID: 8455805911410944423}
-  - {fileID: 5723220944925187581}
+  - {fileID: 5021198527339389542}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -157,7 +188,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_Sprite: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
   m_Color: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
   m_FlipX: 0
@@ -235,8 +266,8 @@ Transform:
   m_LocalPosition: {x: -0.44, y: -0.411, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 8226274248736234172}
-  m_RootOrder: 1
+  m_Father: {fileID: 5021198527339389542}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &5618413839436626369
 SpriteRenderer:
@@ -317,8 +348,8 @@ Transform:
   m_LocalPosition: {x: 0.51, y: -0.411, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_Children: []
-  m_Father: {fileID: 8226274248736234172}
-  m_RootOrder: 2
+  m_Father: {fileID: 5021198527339389542}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1416427384861733082
 SpriteRenderer:
