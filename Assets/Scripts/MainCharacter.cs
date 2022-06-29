@@ -31,5 +31,15 @@ public class MainCharacter : MonoBehaviour
         }
     }
 
-    
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        EnemyBehavior enemy;
+        if(collision.gameObject.GetComponent<EnemyBehavior>()!= null)
+        {
+            enemy = collision.gameObject.GetComponent<EnemyBehavior>();
+
+            GameManager.Instance.EnemyTriggered(enemy);//Envoie l'information de l'ennemi dans la zone au Game Manager.
+        }
+    }
+
 }

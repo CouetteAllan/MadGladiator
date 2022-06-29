@@ -31,5 +31,21 @@ public class UIManager : MonoBehaviour
     private GameObject hudCanvas;
 
 
-    
+    private void Awake()
+    {
+        hudCanvas = GameObject.Find("HUD");
+        hud = hudCanvas.GetComponent<HUDScript>();
+    }
+
+    public void EnemyTriggerUI(EnemyBehavior enemy)
+    {
+        hud.DisplayInputs(enemy);
+    }
+
+    public void EndDefenseUI()
+    {
+        hud.EndDisplay();
+    }
+
+
 }

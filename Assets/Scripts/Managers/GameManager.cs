@@ -94,4 +94,23 @@ public class GameManager : MonoBehaviour
     {
         lives -= damages;
     }
+
+    public void EnemyTriggered(EnemyBehavior enemy)
+    {
+        UIManager.Instance.EnemyTriggerUI(enemy);
+    }
+
+    public void EndDefense(bool won,EnemyBehavior enemy) //sur une fin de défense, on regarde si le joueur a gagné sa confrontation en lui donnant du score en fonction de l'ennemi
+    {
+        UIManager.Instance.EndDefenseUI();
+        if (won)
+        {
+            AddScore(enemy.scoreEarned);
+        }
+        else
+        {
+            Damaged(enemy.damages);
+        }
+
+    }
 }

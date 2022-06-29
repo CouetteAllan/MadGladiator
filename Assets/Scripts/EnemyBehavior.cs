@@ -7,7 +7,9 @@ public class EnemyBehavior : MonoBehaviour {
     [Header("Movement")]
     public Vector3 targetPosition = new Vector2(0f, 0f);
     [SerializeField] float speed = 0.1f;
-
+    public string name = "EnemyName";
+    public int scoreEarned = 100;
+    public int damages = 1;
 
     [Header("Inputs")]
     [SerializeField] List<ScriptableInputsPattern> scriptableInputsPatterns;

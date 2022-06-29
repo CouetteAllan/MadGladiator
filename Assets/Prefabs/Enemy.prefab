@@ -584,6 +584,7 @@ GameObject:
   - component: {fileID: 2633401135638313826}
   - component: {fileID: -8752863225296325225}
   - component: {fileID: -3546850087453233362}
+  - component: {fileID: 6861484186971061902}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -671,6 +672,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
   speed: 0.1
+  name: EnemyName
+  scoreEarned: 100
+  damages: 1
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}
@@ -703,6 +707,22 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!58 &6861484186971061902
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633401135638313825}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.61
 --- !u!1 &2894634276486853243
 GameObject:
   m_ObjectHideFlags: 0

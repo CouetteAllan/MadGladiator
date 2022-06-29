@@ -9,6 +9,8 @@ public class HUDScript : MonoBehaviour
 {
     private GameObject inputPanel;
     private GameObject blackPanel;
+    private TextMeshPro scoreText;
+    [SerializeField] Transform[] inputsKeyRenderers;
 
 
     void Awake()
@@ -20,13 +22,37 @@ public class HUDScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(inputPanel);
-        Debug.Log(blackPanel);
+        EndDisplay();
 
     }
 
-    public void DisplayInputs()
+    public void DisplayInputs(EnemyBehavior enemy)
     {
+        inputPanel.SetActive(true);
+        blackPanel.SetActive(true);
+        DisplayInputPatternUI(enemy);
+    }
 
-    } 
+    public void EndDisplay()
+    {
+        inputPanel.SetActive(false);
+        blackPanel.SetActive(false);
+    }
+
+    private void DisplayInputPatternUI(EnemyBehavior enemy)
+    {
+        char[] chars = enemy.CharsOfChoosenPattern;
+        for (int i = 0; i < inputsKeyRenderers.Length; i++)
+        {
+
+            inputsKeyRenderers[i].gameObject.SetActive(chars.Length > i);
+            if (chars.Length <= i)
+            {
+                continue;
+            }
+            inputsKeyRenderers[i].GetComponent<TextMeshProUGUI>().SetText(chars[i].ToString());
+        }
+    }
+
 }
+
