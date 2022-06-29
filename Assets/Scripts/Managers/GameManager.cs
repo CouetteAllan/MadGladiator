@@ -72,7 +72,7 @@ public class GameManager : MonoBehaviour
     }
 
     private int score;
-    private int lives = 4;
+    [SerializeField]private int lives = 4;
 
     public int GetScore() //Obtenir le score depuis n'importe quel autre script en faisant "GameManager.instance.GetScore()"
     {
