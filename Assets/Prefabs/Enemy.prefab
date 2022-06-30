@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7099311586854475893}
   - component: {fileID: 149798147008828765}
   - component: {fileID: 2768864906178577896}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 7549978563428061512}
   - component: {fileID: 6770513175251795226}
   - component: {fileID: 3038048264376090384}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 3531277235524700754}
   - component: {fileID: 8054679900311245542}
   - component: {fileID: 2329709407879776542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 6546955857385723284}
   - component: {fileID: 2608947266571702894}
   - component: {fileID: 8217144832277617595}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -431,7 +431,7 @@ GameObject:
   - component: {fileID: 7931404658756847276}
   - component: {fileID: 2260593239245590071}
   - component: {fileID: 2720154497082008121}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -507,7 +507,7 @@ GameObject:
   - component: {fileID: 7508394569575224261}
   - component: {fileID: 7584646735195667618}
   - component: {fileID: 2182763241229578083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,9 +585,10 @@ GameObject:
   - component: {fileID: -8752863225296325225}
   - component: {fileID: -3546850087453233362}
   - component: {fileID: 6861484186971061902}
-  m_Layer: 0
+  - component: {fileID: 7903561733657730426}
+  m_Layer: 6
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -672,6 +673,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
   speed: 0.1
+  memorizeZoneMask:
+    serializedVersion: 2
+    m_Bits: 64
   name: EnemyName
   scoreEarned: 100
   damages: 1
@@ -717,12 +721,33 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.61
+--- !u!50 &7903561733657730426
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2633401135638313825}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2894634276486853243
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,7 +759,7 @@ GameObject:
   - component: {fileID: 6657650735697856241}
   - component: {fileID: 8487701462100968362}
   - component: {fileID: 7591397235025369156}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -868,7 +893,7 @@ GameObject:
   - component: {fileID: 4280115812553106528}
   - component: {fileID: 668398313208953444}
   - component: {fileID: 8111643273303032642}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1002,7 +1027,7 @@ GameObject:
   - component: {fileID: 5251006850930685627}
   - component: {fileID: 3442394936868354723}
   - component: {fileID: 7988958913388437699}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1136,7 +1161,7 @@ GameObject:
   - component: {fileID: 5397469249529235677}
   - component: {fileID: 2749116194160660001}
   - component: {fileID: 7076776197425957656}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,7 +1237,7 @@ GameObject:
   - component: {fileID: 4916200957371640194}
   - component: {fileID: 7511128126025647301}
   - component: {fileID: 3229853513750355145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1346,7 +1371,7 @@ GameObject:
   - component: {fileID: 2130780875130666249}
   - component: {fileID: 6349939655153088036}
   - component: {fileID: 2260900202534162833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,7 +1504,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3500202096936974022}
   - component: {fileID: 4413839839700589562}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Inputs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1550,7 +1575,7 @@ GameObject:
   - component: {fileID: 186510243164176525}
   - component: {fileID: 3016756678779632070}
   - component: {fileID: 7158598593467300225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1626,7 +1651,7 @@ GameObject:
   - component: {fileID: 891483032621081896}
   - component: {fileID: 6159909766719702084}
   - component: {fileID: 2313537435566699652}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1761,7 +1786,7 @@ GameObject:
   - component: {fileID: 4406404508545669660}
   - component: {fileID: 5216441274265411274}
   - component: {fileID: 8098847164975357244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1860,7 +1885,7 @@ GameObject:
   - component: {fileID: 9039834937408350382}
   - component: {fileID: 5283835174989215678}
   - component: {fileID: 8902986140085328816}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1936,7 +1961,7 @@ GameObject:
   - component: {fileID: 3535939015722587340}
   - component: {fileID: 7557775528359735152}
   - component: {fileID: 2159278441433408670}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Input 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
