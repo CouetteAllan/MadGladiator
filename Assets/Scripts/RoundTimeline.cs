@@ -20,7 +20,10 @@ public class RoundTimeline : ScriptableObject {
     public struct Event : IComparable {
         public enum EnemyName {
             Random = -1,
-            Taureau = 0,
+            Heavy = 0,
+            Light = 1,
+            Lion = 2,
+            Taureau = 3,
         }
         public enum SpawnPosition {
             Random = -1,

@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 6861484186971061902}
   - component: {fileID: 7903561733657730426}
   m_Layer: 6
-  m_Name: HeavyArmor
+  m_Name: Heavy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -698,6 +698,7 @@ MonoBehaviour:
   - {fileID: 9039834937408350382}
   - {fileID: 5397469249529235677}
   animator: {fileID: -3546850087453233362}
+  spriteRenderer: {fileID: 2633401135638313826}
 --- !u!95 &-3546850087453233362
 Animator:
   serializedVersion: 3
@@ -708,7 +709,7 @@ Animator:
   m_GameObject: {fileID: 2633401135638313825}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 34c4172fb7e48e4498d8965e51bb15f1, type: 2}
+  m_Controller: {fileID: 9100000, guid: 93e8b44009757194482f70fa898908e6, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1838,7 +1839,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &5216441274265411274
 MonoBehaviour:

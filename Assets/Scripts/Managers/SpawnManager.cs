@@ -4,6 +4,7 @@ public class SpawnManager : MonoBehaviour {
     [Header("Spawn Positions")]
     [Tooltip("IMPORTANT : The spawn points have to be references in a special order : \nFirst point is North then rotating Clockwise")] //L'ordre sera utilisé pour la depth des Sprites Renderers
     [SerializeField] Transform[] spawnPositions;
+    [SerializeField] int[] orderInLayers;
 
     [Header("Enemies Prefab")]
     [SerializeField] EnemyBehavior[] enemiesPrefabs;
@@ -38,6 +39,7 @@ public class SpawnManager : MonoBehaviour {
         }
 
         lastEnemy = Instantiate(enemiesPrefabs[enemyIndex], spawnPositions[positionIndex].position, Quaternion.identity);
+        lastEnemy.SetOrderInLayer(orderInLayers[positionIndex]);
         lastEnemy.InitInputsPattern(enemyPattern);
     }
 }

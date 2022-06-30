@@ -27,8 +27,9 @@ public class EnemyBehavior : MonoBehaviour {
     }
     private bool dead = false;
 
-    [Header("Animation")]
+    [Header("Sprite Renderers")]
     [SerializeField] Animator animator;
+    [SerializeField] SpriteRenderer spriteRenderer;
     #endregion
     void Start() {
         InitAnim();
@@ -51,6 +52,9 @@ public class EnemyBehavior : MonoBehaviour {
         }
         DisplayInputsPattern(scriptableInputsPatterns[index]);
         ChoosenPattern = scriptableInputsPatterns[index];
+    }
+    public void SetOrderInLayer(int order) {
+        spriteRenderer.sortingOrder = order;
     }
 
     void DisplayInputsPattern(ScriptableInputsPattern pattern) {

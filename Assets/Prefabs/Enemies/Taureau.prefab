@@ -698,6 +698,7 @@ MonoBehaviour:
   - {fileID: 9039834937408350382}
   - {fileID: 5397469249529235677}
   animator: {fileID: -3546850087453233362}
+  spriteRenderer: {fileID: 2633401135638313826}
 --- !u!95 &-3546850087453233362
 Animator:
   serializedVersion: 3
@@ -1838,7 +1839,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 20
   m_TargetDisplay: 0
 --- !u!114 &5216441274265411274
 MonoBehaviour:
