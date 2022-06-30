@@ -32,7 +32,6 @@ public class EnemyBehavior : MonoBehaviour {
     #endregion
     void Start() {
         InitAnim();
-        InitInputsPattern();
     }
 
     void Update() {
@@ -45,7 +44,7 @@ public class EnemyBehavior : MonoBehaviour {
         animator.SetFloat("DirectionY", direction.y);
     }
 
-    void InitInputsPattern(int index = -1) {
+    public void InitInputsPattern(int index = -1) {
         if(index <= -1) {
             index = Random.Range(0, scriptableInputsPatterns.Count);
         }

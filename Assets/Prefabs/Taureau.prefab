@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 6861484186971061902}
   - component: {fileID: 7903561733657730426}
   m_Layer: 6
-  m_Name: Enemy
+  m_Name: Taureau
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -676,7 +676,7 @@ MonoBehaviour:
   memorizeZoneMask:
     serializedVersion: 2
     m_Bits: 128
-  name: Tauros
+  name: Taureau
   scoreEarned: 100
   damages: 1
   timeDuringDefense: 4
