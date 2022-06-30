@@ -96,8 +96,8 @@ public class HUDScript : MonoBehaviour
             if (Input.GetKey(pattern.inputs[index]))
             {
                 inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().SetText(chars[index].ToString());
+                inputsKeyRenderers[index].GetComponent<Animator>().SetTrigger("Bounce");
                 index++;
-                actualIndex++;
                 yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
             } else if (Input.anyKey) {
                 yield return new WaitForSecondsRealtime(GameManager.Instance.delayTimeAfterFailed);
@@ -106,35 +106,6 @@ public class HUDScript : MonoBehaviour
             }
         }
     }
-
-
-    private void Update()
-    {
-        if(actualIndex > -1)
-        {
-            if(timerAnim > timerAnimMax * 0.5f)
-                inputsKeyRenderers[actualIndex].transform.localScale += Vector3.one * 1.1f * Time.deltaTime;
-            else
-                inputsKeyRenderers[actualIndex].transform.localScale -= Vector3.one * 1.1f * Time.deltaTime;
-
-            timerAnim -= Time.deltaTime;
-
-        }
-    }
-
-    IEnumerator BounceText()
-    {
-        while(timerAnim > 0)
-        {
-            if (timerAnim > timerAnimMax * 0.5f)
-                inputsKeyRenderers[actualIndex].transform.localScale += Vector3.one * 1.1f * Time.deltaTime;
-            else
-                inputsKeyRenderers[actualIndex].transform.localScale -= Vector3.one * 1.1f * Time.deltaTime;
-
-            timerAnim -= 0.1f;
-
-            yield return new WaitForSecondsRealtime(0.1f);
-        }
-    }
+    
 }
 
