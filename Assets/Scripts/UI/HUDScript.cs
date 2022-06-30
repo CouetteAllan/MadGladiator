@@ -96,6 +96,8 @@ public class HUDScript : MonoBehaviour
             if (Input.GetKey(pattern.inputs[index]))
             {
                 inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().SetText(chars[index].ToString());
+                inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().color = new Color32(86, 95, 243, 250);
+
                 inputsKeyRenderers[index].GetComponent<Animator>().SetTrigger("Bounce");
                 index++;
                 yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
