@@ -7,11 +7,18 @@ public class MainCharacter : MonoBehaviour
     [SerializeField] Animator animator;
     public int Lives { get => GameManager.Instance.GetLives(); } //Les vies dépendent des vies stockées dans le game manager où tout le monde peut y avoir accès sans trop de problème
 
+    public CamShake camShakeScript;
+    public float shakeAmount = 0.1f;
     private bool Dead //Dead = true si plus de vies
     {
         get => Lives <= 0;
     }
-    
+
+    private void Awake()
+    {
+        camShakeScript = Camera.main.GetComponent<CamShake>();
+    }
+
     void Start()
     {
         Debug.Log(Lives);
