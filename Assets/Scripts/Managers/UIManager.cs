@@ -2,15 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UIManager : MonoBehaviour
-{
+public class UIManager : MonoBehaviour {
     #region Instances;
 
     private static UIManager instance;
-    public static UIManager Instance
-    {
-        get
-        {
+    public static UIManager Instance {
+        get {
             if (instance == null)
                 Debug.LogError("UIManager Instance not found.");
 
@@ -22,8 +19,7 @@ public class UIManager : MonoBehaviour
 
     #endregion
 
-    private void OnEnable()
-    {
+    private void OnEnable() {
         instance = this;
     }
 
@@ -31,25 +27,24 @@ public class UIManager : MonoBehaviour
     private GameObject hudCanvas;
 
 
-    private void Awake()
-    {
+    private void Awake() {
         hudCanvas = GameObject.Find("HUD");
         hud = hudCanvas.GetComponent<HUDScript>();
     }
 
-    public void EnemyTriggerUI(EnemyBehavior enemy)
-    {
+    public void EnemyTriggerUI(EnemyBehavior enemy) {
         hud.DisplayInputs(enemy);
     }
 
-    public void EndDefenseUI()
-    {
+    public void EndDefenseUI() {
         hud.EndDisplay();
     }
 
-    public void UpdateScore()
-    {
+    public void UpdateScore() {
         hud.UpdateScoreText();
     }
 
+    public void UpdateUI(int previousState, int newState) {
+        hud.UpdateUI(previousState, newState);
+    }
 }

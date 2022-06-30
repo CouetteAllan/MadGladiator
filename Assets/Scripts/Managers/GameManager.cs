@@ -3,52 +3,46 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
-{
+public class GameManager : MonoBehaviour {
 
     #region Instances;
 
     private static GameManager instance;
-    public static GameManager Instance
-    {
-        get
-        {
+    public static GameManager Instance {
+        get {
             if (instance == null)
                 Debug.LogError("GameManager Instance not found.");
 
             return instance;
         }
-
     }
 
 
     #endregion
 
-    private void OnEnable()
-    {
+    private void OnEnable() {
         instance = this;
     }
-
+    private void Start() {
+        CurrentGameStates = GameStates.MainMenu;
+    }
 
     private GameStates gameState;
-    public enum GameStates
-    {
-        InGame,
-        Pause,
-        Defense,
-        MainMenu,
-        GameOver,
+    public enum GameStates {
+        MainMenu = 0,
+        InGame = 1,
+        Pause = 2,
+        GameOver = 3,
+        Defense = 4,
     }
 
     private GameStates currentGameState;
-    public GameStates CurrentGameStates
-    {
+    public GameStates CurrentGameStates {
         get => currentGameState;
-        set
-        {
+        set {
+            UIManager.Instance.UpdateUI((int)currentGameState, (int)value);
             currentGameState = value;
-            switch (currentGameState)
-            {
+            switch (currentGameState) {
                 case GameStates.MainMenu:
                     break;
 
@@ -72,7 +66,7 @@ public class GameManager : MonoBehaviour
         }
     }
     public static int score;
-    [SerializeField]private int lives = 4;
+    [SerializeField] private int lives = 4;
 
     [Header("SpawnManager")]
     [SerializeField] List<RoundTimeline> roundTimelines;
@@ -82,37 +76,30 @@ public class GameManager : MonoBehaviour
     public float updateTime = 0.01f;
     public float delayTimeAfterFailed = 0.3f;
 
-    public int AddScore(int scoreToAdd)
-    {
+    public int AddScore(int scoreToAdd) {
         score += scoreToAdd;
         UIManager.Instance.UpdateScore();
         return score;
     }
 
-    public int GetLives()
-    {
+    public int GetLives() {
         return lives;
     }
 
-    public void Damaged(int damages)
-    {
+    public void Damaged(int damages) {
         lives -= damages;
     }
 
-    public void EnemyTriggered(EnemyBehavior enemy)
-    {
+    public void EnemyTriggered(EnemyBehavior enemy) {
         UIManager.Instance.EnemyTriggerUI(enemy);
     }
 
-    public void EndDefense(bool won,EnemyBehavior enemy) //sur une fin de défense, on regarde si le joueur a gagné sa confrontation en lui donnant du score en fonction de l'ennemi
+    public void EndDefense(bool won, EnemyBehavior enemy) //sur une fin de défense, on regarde si le joueur a gagné sa confrontation en lui donnant du score en fonction de l'ennemi
     {
         UIManager.Instance.EndDefenseUI();
-        if (won)
-        {
+        if (won) {
             AddScore(enemy.scoreEarned);
-        }
-        else
-        {
+        } else {
             Damaged(enemy.damages);
         }
 
@@ -145,5 +132,12 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(updateEndRoundtime);
         }
         Debug.Log("Fin round");
+    }
+
+    public void ChangeState(int newState) {
+        CurrentGameStates = (GameStates)newState;
+    }
+    public void Quit() {
+        Application.Quit();
     }
 }
