@@ -12,6 +12,7 @@ public class HUDScript : MonoBehaviour
     private TextMeshPro scoreText;
     [SerializeField] Transform[] inputsKeyRenderers;
     private TextMeshProUGUI encounterText;
+    private TimerBar timerBar;
 
 
     void Awake()
@@ -19,6 +20,7 @@ public class HUDScript : MonoBehaviour
         inputPanel = GameObject.Find("HUD/InputPanel");
         blackPanel = GameObject.Find("HUD/PanelAssombrissement");
         encounterText = GameObject.Find("HUD/InputPanel/EncounterText").GetComponent<TextMeshProUGUI>();
+        timerBar = GameObject.Find("HUD/InputPanel/TimerBar/Timer").GetComponent<TimerBar>();
     }
 
     // Start is called before the first frame update
@@ -34,6 +36,7 @@ public class HUDScript : MonoBehaviour
         blackPanel.SetActive(true);
         DisplayInputPatternUI(enemy);
         encounterText.text = enemy.name + " vous attaque ! Défendez vous !";
+        timerBar.SetTimer(enemy.timeDuringDefense);
     }
 
     public void EndDisplay()

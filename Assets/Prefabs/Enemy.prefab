@@ -675,10 +675,11 @@ MonoBehaviour:
   speed: 0.1
   memorizeZoneMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   name: EnemyName
   scoreEarned: 100
   damages: 1
+  timeDuringDefense: 4
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}

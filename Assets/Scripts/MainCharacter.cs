@@ -18,12 +18,12 @@ public class MainCharacter : MonoBehaviour
     
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
+        /*if (Input.GetKeyDown(KeyCode.F))
         {
             GameManager.Instance.Damaged(1);
             Debug.Log(Lives);
             Debug.Log("Dead is" + Dead);
-        }
+        }*/
 
         if (Dead) //Si on a plus de vie, on passe le jeu en mode Game Over
         {
@@ -38,7 +38,7 @@ public class MainCharacter : MonoBehaviour
         {
             enemy = collision.gameObject.GetComponent<EnemyBehavior>();
             GameManager.Instance.CurrentGameStates = GameManager.GameStates.Defense;
-            //StartCoroutine(CheckInputsInDefense(enemy));
+            StartCoroutine(CheckInputsInDefense(enemy));
             StartCoroutine(InitDefenseTimer(enemy));
 
             GameManager.Instance.EnemyTriggered(enemy);//Envoie l'information de l'ennemi dans la zone au Game Manager.

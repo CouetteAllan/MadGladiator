@@ -1850,6 +1850,9 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 4
     m_NumAlphaKeys: 8
+  slider: {fileID: 6746179063326420233}
+  fill: {fileID: 9016382351772786735}
+  updateDuringDefense: 0.05
 --- !u!1 &8494807516147888541
 GameObject:
   m_ObjectHideFlags: 0
