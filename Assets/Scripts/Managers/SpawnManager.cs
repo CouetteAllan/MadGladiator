@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour {
     [SerializeField] Transform[] spawnPositions;
 
     [Header("Enemies Prefab")]
-    [SerializeField] GameObject[] enemiesPrefabs;
+    [SerializeField] EnemyBehavior[] enemiesPrefabs;
     public static SpawnManager Instance { get; private set; }
     void Start() {
         if (!Instance) Instance = this;

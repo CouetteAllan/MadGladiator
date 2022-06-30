@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -7,7 +8,9 @@ public class EnemyBehavior : MonoBehaviour {
     [Header("Movement")]
     public Vector3 targetPosition = new Vector2(0f, 0f);
     [SerializeField] float speed = 0.1f;
-    public string name = "EnemyName";
+    [SerializeField] LayerMask memorizeZoneMask;
+
+    public new string name = "EnemyName";
     public int scoreEarned = 100;
     public int damages = 1;
 
@@ -63,5 +66,18 @@ public class EnemyBehavior : MonoBehaviour {
 
     char[] GetChars(ScriptableInputsPattern pattern) {
         return pattern.inputsString.ToCharArray();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision) {
+        if(memorizeZoneMask == (memorizeZoneMask | (1 << collision.gameObject.layer))) {
+            StartCoroutine(HideInputsPattern());
+        }
+    }
+
+    IEnumerator HideInputsPattern() {
+        foreach (var item in inputsKeyRenderers) {
+            item.gameObject.SetActive(false);
+        }
+        yield return null;
     }
 }
