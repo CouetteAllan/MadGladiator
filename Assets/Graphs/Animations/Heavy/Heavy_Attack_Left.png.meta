@@ -114,10 +114,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -133,12 +133,12 @@ TextureImporter:
       name: Heavy_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 1666
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -154,12 +154,12 @@ TextureImporter:
       name: Heavy_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 3000
+        x: 3332
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -175,12 +175,12 @@ TextureImporter:
       name: Heavy_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 4500
+        x: 5107
         y: 0
-        width: 1500
+        width: 1667
         height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -196,12 +196,12 @@ TextureImporter:
       name: Heavy_Attack_Left_4
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 6664
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -217,12 +217,12 @@ TextureImporter:
       name: Heavy_Attack_Left_5
       rect:
         serializedVersion: 2
-        x: 7500
+        x: 8330
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

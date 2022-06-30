@@ -47,4 +47,11 @@ public class UIManager : MonoBehaviour {
     public void UpdateUI(int previousState, int newState) {
         hud.UpdateUI(previousState, newState);
     }
+    public void SetStartRound(bool b) {
+        hud.SetStartRound(b);
+    }
+
+    public void SetEndRound(bool b) {
+        hud.SetEndRound(b);
+    }
 }

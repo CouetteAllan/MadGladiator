@@ -40,14 +40,19 @@ public class GameManager : MonoBehaviour {
     public GameStates CurrentGameStates {
         get => currentGameState;
         set {
-            UIManager.Instance.UpdateUI((int)currentGameState, (int)value);
+            GameStates oldState = currentGameState;
             currentGameState = value;
+            UIManager.Instance.UpdateUI((int)oldState, (int)currentGameState);
             switch (currentGameState) {
                 case GameStates.MainMenu:
+                    Init();
                     break;
 
                 case GameStates.InGame:
                     Time.timeScale = 1.0f;
+                    if (oldState == GameStates.Pause) return;
+                    if (oldState == GameStates.Defense) return;
+                    StartRoundTimeline();
                     break;
 
                 case GameStates.Pause:
@@ -66,7 +71,11 @@ public class GameManager : MonoBehaviour {
         }
     }
     public static int score;
+    public int round;
     [SerializeField] private int lives = 4;
+
+    [SerializeField] float timeStartRound = 5f;
+    [SerializeField] float timeEndRound = 5f;
 
     [Header("SpawnManager")]
     [SerializeField] List<RoundTimeline> roundTimelines;
@@ -76,6 +85,10 @@ public class GameManager : MonoBehaviour {
     public float updateTime = 0.01f;
     public float delayTimeAfterFailed = 0.3f;
 
+    private void Init() {
+        score = 0;
+        round = 0;
+    }
     public int AddScore(int scoreToAdd) {
         score += scoreToAdd;
         UIManager.Instance.UpdateScore();
@@ -110,14 +123,20 @@ public class GameManager : MonoBehaviour {
     private void Update() {
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.Keypad0)) {
-            StartTimeline(0);
+            StartRoundTimeline(0);
         }
 #endif
     }
-    public void StartTimeline(int index) {
-        StartCoroutine(StartTimeline(roundTimelines[index]));
+    public void StartRoundTimeline(int index = -1) {
+        round = index <= -1 ? round : index;
+        StartCoroutine(StartRoundAnimation());
     }
-
+    IEnumerator StartRoundAnimation() {
+        UIManager.Instance.SetStartRound(true);
+        yield return new WaitForSeconds(timeStartRound);
+        UIManager.Instance.SetStartRound(false);
+        StartCoroutine(StartTimeline(roundTimelines[round]));
+    }
     IEnumerator StartTimeline(RoundTimeline roundTimeline) {
         for (int i = 0; i < roundTimeline.events.Count; i++) {
             RoundTimeline.Event currentEvent = roundTimeline.events[i];
@@ -131,9 +150,20 @@ public class GameManager : MonoBehaviour {
         while (!SpawnManager.Instance.RoundDone) {
             yield return new WaitForSeconds(updateEndRoundtime);
         }
-        Debug.Log("Fin round");
+        round++;
+        StartCoroutine(EndRoundAnimation());
     }
-
+    IEnumerator EndRoundAnimation() {
+        UIManager.Instance.SetEndRound(true);
+        yield return new WaitForSeconds(timeEndRound);
+        UIManager.Instance.SetEndRound(false);
+        if (round >= roundTimelines.Count) {
+            Debug.Log("Plus de RoundTimeline");
+            //Ajouter Fin du jeu => voir credits
+            yield break;
+        }
+        StartRoundTimeline();
+    }
     public void ChangeState(int newState) {
         CurrentGameStates = (GameStates)newState;
     }

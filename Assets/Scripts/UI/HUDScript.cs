@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.Playables;
+using System;
 
 public class HUDScript : MonoBehaviour {
 
@@ -13,10 +15,11 @@ public class HUDScript : MonoBehaviour {
     [SerializeField] TextMeshProUGUI encounterText;
     [SerializeField] TimerBar timerBar;
     [SerializeField] Transform[] inputsKeyRenderers;
+    [Header("Rounds")]
+    [SerializeField] GameObject startRound;
+    [SerializeField] GameObject endRound;
     [Header("GameOver")]
     [SerializeField] TextMeshProUGUI gameOverScoreText;
-
-
     private int actualIndex = -1;
 
     private float timerAnimMax = 1.1f;
@@ -38,6 +41,7 @@ public class HUDScript : MonoBehaviour {
         actualIndex = 0;
         timerAnim = timerAnimMax;
     }
+
 
     public void UpdateUI(int previousState, int newState) {
 
@@ -95,4 +99,12 @@ public class HUDScript : MonoBehaviour {
         }
     }
 
+    public void SetStartRound(bool b) {
+        groups[1].SetActive(!b);
+        startRound.SetActive(b);
+    }
+    public void SetEndRound(bool b) {
+        groups[1].SetActive(!b);
+        endRound.SetActive(b);
+    }
 }

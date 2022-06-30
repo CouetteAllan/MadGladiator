@@ -20,6 +20,24 @@ TextureImporter:
   - first:
       213: -3451977629636986045
     second: Heavy_Attack_5
+  - first:
+      213: 3656358073622019334
+    second: Heavy_Attack_Right_0
+  - first:
+      213: 4622327325446795268
+    second: Heavy_Attack_Right_1
+  - first:
+      213: 2241405907599757505
+    second: Heavy_Attack_Right_2
+  - first:
+      213: 9213288250600367613
+    second: Heavy_Attack_Right_3
+  - first:
+      213: -8063157238102225906
+    second: Heavy_Attack_Right_4
+  - first:
+      213: -149274044991560914
+    second: Heavy_Attack_Right_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,12 +127,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heavy_Attack_0
+      name: Heavy_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1224
+        width: 1666.6666
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -123,19 +141,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1584678652b10f30800000000000000
-      internalID: 4540105984074614042
+      spriteID: 60d3fd5bb4efdb230800000000000000
+      internalID: 3656358073622019334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Attack_1
+      name: Heavy_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 1666
         y: 0
-        width: 1196
+        width: 1666.6666
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -144,19 +162,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 838cb0fc7340a0230800000000000000
-      internalID: 3605699089406871608
+      spriteID: 40076dc563ec52040800000000000000
+      internalID: 4622327325446795268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Attack_2
+      name: Heavy_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 2813
+        x: 3250
         y: 0
-        width: 1500
+        width: 1667
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -165,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6d3d4aaa0051b240800000000000000
-      internalID: 4805710284118113643
+      spriteID: 1c012f72cc21b1f10800000000000000
+      internalID: 2241405907599757505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Attack_3
+      name: Heavy_Attack_Right_3
       rect:
         serializedVersion: 2
-        x: 4500
+        x: 4998
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -186,19 +204,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55c82ca6d633d4a80800000000000000
-      internalID: -8481065978233189291
+      spriteID: df5a05e89dc2cdf70800000000000000
+      internalID: 9213288250600367613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Attack_4
+      name: Heavy_Attack_Right_4
       rect:
         serializedVersion: 2
-        x: 6000
+        x: 6664
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -207,19 +225,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b11baaca253c530800000000000000
-      internalID: 3874031006020344612
+      spriteID: e0c0cce5639e91090800000000000000
+      internalID: -8063157238102225906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Attack_5
+      name: Heavy_Attack_Right_5
       rect:
         serializedVersion: 2
-        x: 7500
+        x: 8330
         y: 0
-        width: 1500
+        width: 1666.6666
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -228,8 +246,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34b74ec92ac1810d0800000000000000
-      internalID: -3451977629636986045
+      spriteID: e23a7160c0cadedf0800000000000000
+      internalID: -149274044991560914
       vertices: []
       indices: 
       edges: []
