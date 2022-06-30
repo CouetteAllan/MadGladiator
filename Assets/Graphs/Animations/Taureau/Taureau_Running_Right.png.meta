@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 69c7f957bcd9d924595338be12b30b95
+guid: c097f4f58b7a7b24da1fb470145abcb5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399238009096881873
-    second: Player_Idle_Left_0
+      213: -843900671912866349
+    second: Tauros teigneux-Sheet_0
   - first:
-      213: -3321662743051560347
-    second: Player_Idle_Left_1
+      213: -7777580169456541356
+    second: Tauros teigneux-Sheet_1
   - first:
-      213: 1587173188486374523
-    second: Player_Idle_Left_2
+      213: -204316377092250879
+    second: Tauros teigneux-Sheet_2
   - first:
-      213: -8879779461996071303
-    second: Player_Idle_Left_3
+      213: -4030744339276292253
+    second: Tauros teigneux-Sheet_3
   - first:
-      213: -7717459723604299987
-    second: Player_Idle_Left_4
+      213: -877539235942788304
+    second: Tauros teigneux-Sheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,12 +106,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_Left_0
+      name: Tauros teigneux-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
+        width: 400
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,19 +120,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6cd2cd776109470800000000000000
-      internalID: 8399238009096881873
+      spriteID: 3dd8be06fccd944f0800000000000000
+      internalID: -843900671912866349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_1
+      name: Tauros teigneux-Sheet_1
       rect:
         serializedVersion: 2
-        x: 500
+        x: 400
         y: 0
-        width: 500
+        width: 400
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,19 +141,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a13c8855517e1d0800000000000000
-      internalID: -3321662743051560347
+      spriteID: 451ab631b0c701490800000000000000
+      internalID: -7777580169456541356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_2
+      name: Tauros teigneux-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 800
         y: 0
-        width: 500
+        width: 400
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,19 +162,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7421c01b95c60610800000000000000
-      internalID: 1587173188486374523
+      spriteID: 1032f99665f1a2df0800000000000000
+      internalID: -204316377092250879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_3
+      name: Tauros teigneux-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 1200
         y: 0
-        width: 500
+        width: 400
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9763aeb50afa4c480800000000000000
-      internalID: -8879779461996071303
+      spriteID: 36f1505116bef08c0800000000000000
+      internalID: -4030744339276292253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_4
+      name: Tauros teigneux-Sheet_4
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 1600
         y: 0
-        width: 500
+        width: 400
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f6e2e254316e490800000000000000
-      internalID: -7717459723604299987
+      spriteID: 033992dd6ba52d3f0800000000000000
+      internalID: -877539235942788304
       vertices: []
       indices: 
       edges: []

@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 69c7f957bcd9d924595338be12b30b95
+guid: 5cac96353aa582043b4141b922aed6c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399238009096881873
-    second: Player_Idle_Left_0
+      213: 5266257077233423762
+    second: Lion Agresse-Sheet_0
   - first:
-      213: -3321662743051560347
-    second: Player_Idle_Left_1
+      213: -2390507922307255942
+    second: Lion Agresse-Sheet_1
   - first:
-      213: 1587173188486374523
-    second: Player_Idle_Left_2
+      213: -7594393903239613437
+    second: Lion Agresse-Sheet_2
   - first:
-      213: -8879779461996071303
-    second: Player_Idle_Left_3
+      213: -7049174568311025443
+    second: Lion Agresse-Sheet_3
   - first:
-      213: -7717459723604299987
-    second: Player_Idle_Left_4
+      213: 4387622915096115476
+    second: Lion Agresse-Sheet_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,12 +106,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_Left_0
+      name: Lion Agresse-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
+        width: 600
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,19 +120,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6cd2cd776109470800000000000000
-      internalID: 8399238009096881873
+      spriteID: 2959260f8e0851940800000000000000
+      internalID: 5266257077233423762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_1
+      name: Lion Agresse-Sheet_1
       rect:
         serializedVersion: 2
-        x: 500
+        x: 600
         y: 0
-        width: 500
+        width: 600
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,19 +141,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a13c8855517e1d0800000000000000
-      internalID: -3321662743051560347
+      spriteID: a717e1ac5b533ded0800000000000000
+      internalID: -2390507922307255942
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_2
+      name: Lion Agresse-Sheet_2
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 1200
         y: 0
-        width: 500
+        width: 600
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,19 +162,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7421c01b95c60610800000000000000
-      internalID: 1587173188486374523
+      spriteID: 304b2095bfa4b9690800000000000000
+      internalID: -7594393903239613437
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_3
+      name: Lion Agresse-Sheet_3
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 1800
         y: 0
-        width: 500
+        width: 600
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9763aeb50afa4c480800000000000000
-      internalID: -8879779461996071303
+      spriteID: dd09a18041d4c2e90800000000000000
+      internalID: -7049174568311025443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_4
+      name: Lion Agresse-Sheet_4
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 2400
         y: 0
-        width: 500
+        width: 600
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f6e2e254316e490800000000000000
-      internalID: -7717459723604299987
+      spriteID: 419faae6bc7f3ec30800000000000000
+      internalID: 4387622915096115476
       vertices: []
       indices: 
       edges: []

@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 8226274248736234174}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.75, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -74,12 +74,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: b740a4447e8d6394d814c3582f2e534b, type: 3}
+  m_Sprite: {fileID: -467307283419413426, guid: ac6cc42638d0fbe43b63d86c0e316773, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2, y: 2.0019534}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,6 +98,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3165370468713848166}
+  camShakeScript: {fileID: 0}
+  shakeAmount: 0.1
 --- !u!58 &7665906750902900040
 CircleCollider2D:
   m_ObjectHideFlags: 0

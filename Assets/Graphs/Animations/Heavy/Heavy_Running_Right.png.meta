@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 69c7f957bcd9d924595338be12b30b95
+guid: 90852366ef842cb429f5b70499b66140
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399238009096881873
-    second: Player_Idle_Left_0
+      213: -4452401413892490083
+    second: Heavy_Idle_0
   - first:
-      213: -3321662743051560347
-    second: Player_Idle_Left_1
+      213: -2748542925584174401
+    second: Heavy_Idle_1
   - first:
-      213: 1587173188486374523
-    second: Player_Idle_Left_2
+      213: 2081315721164817914
+    second: Heavy_Idle_2
   - first:
-      213: -8879779461996071303
-    second: Player_Idle_Left_3
+      213: -4721536827073362422
+    second: Heavy_Idle_3
   - first:
-      213: -7717459723604299987
-    second: Player_Idle_Left_4
+      213: 4607172358384162940
+    second: Heavy_Idle_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_Left_0
+      name: Heavy_Idle_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 500
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -120,41 +120,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6cd2cd776109470800000000000000
-      internalID: 8399238009096881873
+      spriteID: d9cbd7ff084e532c0800000000000000
+      internalID: -4452401413892490083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_1
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 0
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 56a13c8855517e1d0800000000000000
-      internalID: -3321662743051560347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Idle_Left_2
+      name: Heavy_Idle_1
       rect:
         serializedVersion: 2
         x: 1000
         y: 0
-        width: 500
-        height: 500
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,41 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7421c01b95c60610800000000000000
-      internalID: 1587173188486374523
+      spriteID: fb274a685c63bd9d0800000000000000
+      internalID: -2748542925584174401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_3
-      rect:
-        serializedVersion: 2
-        x: 1500
-        y: 0
-        width: 500
-        height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9763aeb50afa4c480800000000000000
-      internalID: -8879779461996071303
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player_Idle_Left_4
+      name: Heavy_Idle_2
       rect:
         serializedVersion: 2
         x: 2000
         y: 0
-        width: 500
-        height: 500
+        width: 1000
+        height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +162,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f6e2e254316e490800000000000000
-      internalID: -7717459723604299987
+      spriteID: af507710f9152ec10800000000000000
+      internalID: 2081315721164817914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heavy_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a060e54854bb97eb0800000000000000
+      internalID: -4721536827073362422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heavy_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 1000
+        height: 1000
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c789c70a9d6ffef30800000000000000
+      internalID: 4607172358384162940
       vertices: []
       indices: 
       edges: []

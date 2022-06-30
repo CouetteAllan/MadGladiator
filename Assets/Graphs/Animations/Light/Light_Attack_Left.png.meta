@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 69c7f957bcd9d924595338be12b30b95
+guid: 9d79dc6233dbe054b9fbbc22faca2201
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399238009096881873
-    second: Player_Idle_Left_0
+      213: 174908800829418066
+    second: Light_Attack_Left_0
   - first:
-      213: -3321662743051560347
-    second: Player_Idle_Left_1
+      213: 9166613757766627071
+    second: Light_Attack_Left_1
   - first:
-      213: 1587173188486374523
-    second: Player_Idle_Left_2
+      213: 5806838830879600703
+    second: Light_Attack_Left_2
   - first:
-      213: -8879779461996071303
-    second: Player_Idle_Left_3
+      213: 3380321711938898479
+    second: Light_Attack_Left_3
   - first:
-      213: -7717459723604299987
-    second: Player_Idle_Left_4
+      213: -4309763521201066650
+    second: Light_Attack_Left_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +61,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,12 +106,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_Left_0
+      name: Light_Attack_Left_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
+        width: 700
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,19 +120,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6cd2cd776109470800000000000000
-      internalID: 8399238009096881873
+      spriteID: 25ae68da0a66d6200800000000000000
+      internalID: 174908800829418066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_1
+      name: Light_Attack_Left_1
       rect:
         serializedVersion: 2
-        x: 500
+        x: 700
         y: 0
-        width: 500
+        width: 700
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,19 +141,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a13c8855517e1d0800000000000000
-      internalID: -3321662743051560347
+      spriteID: ffe63e855aa563f70800000000000000
+      internalID: 9166613757766627071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_2
+      name: Light_Attack_Left_2
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 1400
         y: 0
-        width: 500
+        width: 700
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,19 +162,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7421c01b95c60610800000000000000
-      internalID: 1587173188486374523
+      spriteID: f30f5869629069050800000000000000
+      internalID: 5806838830879600703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_3
+      name: Light_Attack_Left_3
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 2100
         y: 0
-        width: 500
+        width: 700
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,19 +183,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9763aeb50afa4c480800000000000000
-      internalID: -8879779461996071303
+      spriteID: f2a88a2ffa059ee20800000000000000
+      internalID: 3380321711938898479
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_4
+      name: Light_Attack_Left_4
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 2800
         y: 0
-        width: 500
+        width: 700
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f6e2e254316e490800000000000000
-      internalID: -7717459723604299987
+      spriteID: 66dafdc59e4a034c0800000000000000
+      internalID: -4309763521201066650
       vertices: []
       indices: 
       edges: []

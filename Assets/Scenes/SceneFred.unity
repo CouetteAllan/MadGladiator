@@ -406,6 +406,9 @@ MonoBehaviour:
   - {fileID: 1016628408}
   enemiesPrefabs:
   - {fileID: -8752863225296325225, guid: d41965696446862448f22d7e2d3394d0, type: 3}
+  - {fileID: -8752863225296325225, guid: 79981df70dfb46e419a11212b293c673, type: 3}
+  - {fileID: -8752863225296325225, guid: 696a0f2545c99f447a1f1b96d10fe717, type: 3}
+  - {fileID: -8752863225296325225, guid: e832cb8e1cfe66c4195fd9f8658abd8a, type: 3}
 --- !u!1 &1180797835
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,21 +538,21 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8226274248736234172, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8226274248736234172, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8226274248736234172, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8226274248736234174, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
       propertyPath: m_Name
       value: Gladiator
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226274248736234175, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226274248736234175, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
+      propertyPath: m_Size.y
+      value: 2.0019534
+      objectReference: {fileID: 0}
+    - target: {fileID: 8226274248736234175, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3c2f182652c47b04eabbe2e0a179f641, type: 3}

@@ -1,22 +1,31 @@
 fileFormatVersion: 2
-guid: 69c7f957bcd9d924595338be12b30b95
+guid: e33b2a0122796034fa286c353f289c77
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8399238009096881873
-    second: Player_Idle_Left_0
+      213: -4019546041605903280
+    second: Light_DeathR (1)_0
   - first:
-      213: -3321662743051560347
-    second: Player_Idle_Left_1
+      213: -6650155932151887654
+    second: Light_DeathR (1)_1
   - first:
-      213: 1587173188486374523
-    second: Player_Idle_Left_2
+      213: -4394282741230090571
+    second: Light_DeathR (1)_2
   - first:
-      213: -8879779461996071303
-    second: Player_Idle_Left_3
+      213: -4624532781320648384
+    second: Light_DeathR (1)_3
   - first:
-      213: -7717459723604299987
-    second: Player_Idle_Left_4
+      213: 8067762202392427934
+    second: Light_DeathR (1)_4
+  - first:
+      213: -8185224559882148031
+    second: Light_DeathR (1)_5
+  - first:
+      213: 1178293650042884779
+    second: Light_DeathR (1)_6
+  - first:
+      213: -4845003595025104495
+    second: Light_DeathR (1)_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +70,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,12 +115,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Idle_Left_0
+      name: Light_DeathR (1)_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 240
         y: 0
-        width: 500
+        width: 970
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -120,19 +129,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d6cd2cd776109470800000000000000
-      internalID: 8399238009096881873
+      spriteID: 05ca0cfeb24b738c0800000000000000
+      internalID: -4019546041605903280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_1
+      name: Light_DeathR (1)_1
       rect:
         serializedVersion: 2
-        x: 500
+        x: 1210
         y: 0
-        width: 500
+        width: 970
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,19 +150,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56a13c8855517e1d0800000000000000
-      internalID: -3321662743051560347
+      spriteID: ad8412be966e5b3a0800000000000000
+      internalID: -6650155932151887654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_2
+      name: Light_DeathR (1)_2
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 2180
         y: 0
-        width: 500
+        width: 970
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,19 +171,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7421c01b95c60610800000000000000
-      internalID: 1587173188486374523
+      spriteID: 5b6c956f02f5403c0800000000000000
+      internalID: -4394282741230090571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_3
+      name: Light_DeathR (1)_3
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 3150
         y: 0
-        width: 500
+        width: 970
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,19 +192,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9763aeb50afa4c480800000000000000
-      internalID: -8879779461996071303
+      spriteID: 049cb3defeb52dfb0800000000000000
+      internalID: -4624532781320648384
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Idle_Left_4
+      name: Light_DeathR (1)_4
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 4120
         y: 0
-        width: 500
+        width: 970
         height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,8 +213,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2f6e2e254316e490800000000000000
-      internalID: -7717459723604299987
+      spriteID: e9d7ced6af276ff60800000000000000
+      internalID: 8067762202392427934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_DeathR (1)_5
+      rect:
+        serializedVersion: 2
+        x: 5090
+        y: 0
+        width: 970
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147eb6541ad386e80800000000000000
+      internalID: -8185224559882148031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_DeathR (1)_6
+      rect:
+        serializedVersion: 2
+        x: 6060
+        y: 0
+        width: 970
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba297e3f4d32a5010800000000000000
+      internalID: 1178293650042884779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Light_DeathR (1)_7
+      rect:
+        serializedVersion: 2
+        x: 7030
+        y: 0
+        width: 970
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191c90776e613ccb0800000000000000
+      internalID: -4845003595025104495
       vertices: []
       indices: 
       edges: []
