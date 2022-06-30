@@ -89,6 +89,7 @@ public class EnemyBehavior : MonoBehaviour {
             dead = true;
         } else {
             animator.SetTrigger("Attack");
+            dead = true;
         }
 
         Destroy(this.gameObject, animator.GetCurrentAnimatorClipInfo(0).Length);

@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: 343ac74ec40c9544e9827c529663c1a1
+guid: b04d95a1f32b7b64b9230852978a96dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8247678589313287589
-    second: Light_IdleR_0
+      213: -6914146259605043002
+    second: Tauros teigneux attaque-Sheet_0
   - first:
-      213: 6556580432591556679
-    second: Light_IdleR_1
+      213: -1405596415081046012
+    second: Tauros teigneux attaque-Sheet_1
   - first:
-      213: 7467102131691210595
-    second: Light_IdleR_2
+      213: -5961050856867024278
+    second: Tauros teigneux attaque-Sheet_2
   - first:
-      213: 1926085728103799505
-    second: Light_IdleR_3
+      213: 9148061770712034605
+    second: Tauros teigneux attaque-Sheet_3
   - first:
-      213: 8671989971776104775
-    second: Light_IdleR_4
+      213: 774410985655311923
+    second: Tauros teigneux attaque-Sheet_4
   - first:
-      213: 8066144720583991312
-    second: Light_IdleR_5
+      213: -5889304103435632442
+    second: Tauros teigneux attaque-Sheet_5
+  - first:
+      213: 5216375572344163548
+    second: Tauros teigneux attaque-Sheet_6
+  - first:
+      213: 2699589144321222106
+    second: Tauros teigneux attaque-Sheet_7
+  - first:
+      213: -1314342935119115048
+    second: Tauros teigneux attaque-Sheet_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -64,7 +73,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -86,7 +95,7 @@ TextureImporter:
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -98,7 +107,7 @@ TextureImporter:
     maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -109,7 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Light_IdleR_0
+      name: Tauros teigneux attaque-Sheet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -123,14 +132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a50d999af3a57270800000000000000
-      internalID: 8247678589313287589
+      spriteID: 6c8452f0c940c00a0800000000000000
+      internalID: -6914146259605043002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_IdleR_1
+      name: Tauros teigneux attaque-Sheet_1
       rect:
         serializedVersion: 2
         x: 500
@@ -144,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74095e94a27adfa50800000000000000
-      internalID: 6556580432591556679
+      spriteID: 4002885f1815e7ce0800000000000000
+      internalID: -1405596415081046012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_IdleR_2
+      name: Tauros teigneux attaque-Sheet_2
       rect:
         serializedVersion: 2
         x: 1000
@@ -165,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367440d83d970a760800000000000000
-      internalID: 7467102131691210595
+      spriteID: a62376424d7164da0800000000000000
+      internalID: -5961050856867024278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_IdleR_3
+      name: Tauros teigneux attaque-Sheet_3
       rect:
         serializedVersion: 2
         x: 1500
@@ -186,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1da939ec3c4daba10800000000000000
-      internalID: 1926085728103799505
+      spriteID: d2d2f9246b174fe70800000000000000
+      internalID: 9148061770712034605
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_IdleR_4
+      name: Tauros teigneux attaque-Sheet_4
       rect:
         serializedVersion: 2
         x: 2000
@@ -207,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749e673eee8195870800000000000000
-      internalID: 8671989971776104775
+      spriteID: 33e152e30b24fba00800000000000000
+      internalID: 774410985655311923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_IdleR_5
+      name: Tauros teigneux attaque-Sheet_5
       rect:
         serializedVersion: 2
         x: 2500
@@ -228,8 +237,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0102d4913e3b0ff60800000000000000
-      internalID: 8066144720583991312
+      spriteID: 6c0087cee1df44ea0800000000000000
+      internalID: -5889304103435632442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tauros teigneux attaque-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc499c02f9446840800000000000000
+      internalID: 5216375572344163548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tauros teigneux attaque-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad564c2160ed67520800000000000000
+      internalID: 2699589144321222106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tauros teigneux attaque-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 0
+        width: 500
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc4e2f601482cde0800000000000000
+      internalID: -1314342935119115048
       vertices: []
       indices: 
       edges: []
