@@ -25,7 +25,7 @@ public class EnemyBehavior : MonoBehaviour {
             return ChoosenPattern.inputsString.ToCharArray();
         }
     }
-
+    private bool dead = false;
 
     [Header("Animation")]
     [SerializeField] Animator animator;
@@ -35,7 +35,8 @@ public class EnemyBehavior : MonoBehaviour {
     }
 
     void Update() {
-        this.transform.position = Vector2.Lerp(this.transform.position, targetPosition, speed * Time.deltaTime);
+        if(!dead)
+            this.transform.position = Vector2.Lerp(this.transform.position, targetPosition, speed * Time.deltaTime);
     }
 
     void InitAnim() {
@@ -85,9 +86,11 @@ public class EnemyBehavior : MonoBehaviour {
     public void Kill(bool defenseSuceeded) {
         if (defenseSuceeded) {
             animator.SetTrigger("Death");
+            dead = true;
         } else {
             animator.SetTrigger("Attack");
         }
-        Destroy(this.gameObject, 0.5f);
+
+        Destroy(this.gameObject, animator.GetCurrentAnimatorClipInfo(0).Length);
     }
 }
