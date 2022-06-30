@@ -50,7 +50,9 @@ public class MainCharacter : MonoBehaviour
         int index = 0;
         while(index != pattern.inputs.Count) {
             if (Input.GetKey(pattern.inputs[index])) {
+                GameManager.Instance.IndexRightInput(index);
                 index++;
+
             }
             yield return new WaitForEndOfFrame();
         }

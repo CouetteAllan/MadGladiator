@@ -43,6 +43,7 @@ public class HUDScript : MonoBehaviour
     {
         inputPanel.SetActive(false);
         blackPanel.SetActive(false);
+        StopAllCoroutines();
     }
 
     private void DisplayInputPatternUI(EnemyBehavior enemy)
@@ -56,9 +57,25 @@ public class HUDScript : MonoBehaviour
             {
                 continue;
             }
-            inputsKeyRenderers[i].GetComponent<TextMeshProUGUI>().SetText(chars[i].ToString());
         }
+        StartCoroutine(CheckInputsInDefense(enemy));
+
     }
 
+
+    IEnumerator CheckInputsInDefense(EnemyBehavior enemy)
+    {
+        ScriptableInputsPattern pattern = enemy.ChoosenPattern;
+        int index = 0;
+        while (index != pattern.inputs.Count)
+        {
+            if (Input.GetKey(pattern.inputs[index]))
+            {
+                index++;
+
+            }
+            yield return new WaitForEndOfFrame();
+        }
+    }
 }
 

@@ -30,7 +30,6 @@ public class TimerBar : MonoBehaviour
     {
         this.startTimer = timerEnemy;
         timer = startTimer;
-        //StartCoroutine(InitDefenseTimer());
     }
 
     private void UpdateTimerUI()

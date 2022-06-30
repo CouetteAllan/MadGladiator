@@ -120,4 +120,9 @@ public class GameManager : MonoBehaviour
         CurrentGameStates = GameStates.InGame;
 
     }
+
+    public int IndexRightInput(int index)
+    {
+        return index;
+    }
 }
