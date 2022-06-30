@@ -7,6 +7,13 @@ public class SpawnManager : MonoBehaviour {
 
     [Header("Enemies Prefab")]
     [SerializeField] EnemyBehavior[] enemiesPrefabs;
+
+    public bool RoundDone {
+        get {
+            return lastEnemy == null;
+        }
+    }
+    EnemyBehavior lastEnemy;
     public static SpawnManager Instance { get; private set; }
     void Start() {
         if (!Instance) Instance = this;
@@ -17,19 +24,20 @@ public class SpawnManager : MonoBehaviour {
     void Update() {
 #if UNITY_EDITOR
         if (Input.GetMouseButtonDown(0)) {
-            Spawn();
+            Spawn(enemyPattern:-1);
         }
 #endif
     }
 
-    public void Spawn(int positionIndex = -1, int enemiIndex = -1) {
+    public void Spawn(int positionIndex = -1, int enemyIndex = -1, int enemyPattern = -1) {
         if (positionIndex <= -1) {
             positionIndex = Random.Range(0, spawnPositions.Length);
         }
-        if (enemiIndex <= -1) {
-            enemiIndex = Random.Range(0, enemiesPrefabs.Length);
+        if (enemyIndex <= -1) {
+            enemyIndex = Random.Range(0, enemiesPrefabs.Length);
         }
 
-        Instantiate(enemiesPrefabs[enemiIndex], spawnPositions[positionIndex].position, Quaternion.identity);
+        lastEnemy = Instantiate(enemiesPrefabs[enemyIndex], spawnPositions[positionIndex].position, Quaternion.identity);
+        lastEnemy.InitInputsPattern(enemyPattern);
     }
 }

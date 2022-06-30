@@ -68,19 +68,19 @@ public class GameManager : MonoBehaviour
                 case GameStates.Defense:
                     Time.timeScale = 0.0f;
                     break;
-
-
             }
-
-
         }
     }
     public static int score;
     [SerializeField]private int lives = 4;
 
+    [Header("SpawnManager")]
+    [SerializeField] List<RoundTimeline> roundTimelines;
+    [SerializeField] float updateEndRoundtime;
+
     [Header("Defense Phase")]
     public float updateTime = 0.01f;
-    public float delayTimeAfterFailed = 0.1f;
+    public float delayTimeAfterFailed = 0.3f;
 
     public int AddScore(int scoreToAdd)
     {
@@ -119,5 +119,31 @@ public class GameManager : MonoBehaviour
         CurrentGameStates = GameStates.InGame;
 
     }
-    
+
+    private void Update() {
+#if UNITY_EDITOR
+        if (Input.GetKeyDown(KeyCode.Keypad0)) {
+            StartTimeline(0);
+        }
+#endif
+    }
+    public void StartTimeline(int index) {
+        StartCoroutine(StartTimeline(roundTimelines[index]));
+    }
+
+    IEnumerator StartTimeline(RoundTimeline roundTimeline) {
+        for (int i = 0; i < roundTimeline.events.Count; i++) {
+            RoundTimeline.Event currentEvent = roundTimeline.events[i];
+            yield return new WaitForSeconds(currentEvent.spawnTime);
+            SpawnManager.Instance.Spawn(
+                currentEvent.position,
+                currentEvent.enemy,
+                currentEvent.patternIndex
+            );
+        }
+        while (!SpawnManager.Instance.RoundDone) {
+            yield return new WaitForSeconds(updateEndRoundtime);
+        }
+        Debug.Log("Fin round");
+    }
 }
