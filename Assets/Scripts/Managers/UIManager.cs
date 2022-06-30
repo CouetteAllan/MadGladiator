@@ -47,5 +47,9 @@ public class UIManager : MonoBehaviour
         hud.EndDisplay();
     }
 
+    public void UpdateScore()
+    {
+        hud.UpdateScoreText();
+    }
 
 }
