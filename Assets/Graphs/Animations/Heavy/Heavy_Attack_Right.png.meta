@@ -132,7 +132,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1666.6666
+        width: 1500
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -151,9 +151,9 @@ TextureImporter:
       name: Heavy_Attack_Right_1
       rect:
         serializedVersion: 2
-        x: 1666
+        x: 1500
         y: 0
-        width: 1666.6666
+        width: 1500
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -172,9 +172,9 @@ TextureImporter:
       name: Heavy_Attack_Right_2
       rect:
         serializedVersion: 2
-        x: 3250
+        x: 3000
         y: 0
-        width: 1667
+        width: 1500
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -193,9 +193,9 @@ TextureImporter:
       name: Heavy_Attack_Right_3
       rect:
         serializedVersion: 2
-        x: 4998
+        x: 4500
         y: 0
-        width: 1666.6666
+        width: 1500
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,9 +214,9 @@ TextureImporter:
       name: Heavy_Attack_Right_4
       rect:
         serializedVersion: 2
-        x: 6664
+        x: 6000
         y: 0
-        width: 1666.6666
+        width: 1500
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -235,9 +235,9 @@ TextureImporter:
       name: Heavy_Attack_Right_5
       rect:
         serializedVersion: 2
-        x: 8330
+        x: 7500
         y: 0
-        width: 1666.6666
+        width: 1500
         height: 1000
       alignment: 0
       pivot: {x: 0, y: 0}
