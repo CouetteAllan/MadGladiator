@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
     {
         InGame,
         Pause,
+        Defense,
         MainMenu,
         GameOver,
     }
@@ -60,8 +61,12 @@ public class GameManager : MonoBehaviour
                     break;
 
                 case GameStates.GameOver:
-                    Time.timeScale = 0.4f;
+                    Time.timeScale = 0.0f;
                     Time.fixedDeltaTime = 0.02f * Time.timeScale;
+                    break;
+
+                case GameStates.Defense:
+                    Time.timeScale = 0.0f;
                     break;
 
 
@@ -111,6 +116,8 @@ public class GameManager : MonoBehaviour
         {
             Damaged(enemy.damages);
         }
+
+        CurrentGameStates = GameStates.InGame;
 
     }
 }

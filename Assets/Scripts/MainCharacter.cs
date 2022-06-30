@@ -34,9 +34,10 @@ public class MainCharacter : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         EnemyBehavior enemy;
-        if(collision.gameObject.GetComponent<EnemyBehavior>()!= null)
+        if(collision.gameObject.tag == "Enemy")
         {
             enemy = collision.gameObject.GetComponent<EnemyBehavior>();
+            GameManager.Instance.CurrentGameStates = GameManager.GameStates.Defense;
 
             GameManager.Instance.EnemyTriggered(enemy);//Envoie l'information de l'ennemi dans la zone au Game Manager.
         }
