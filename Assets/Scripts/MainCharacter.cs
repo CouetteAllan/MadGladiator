@@ -38,9 +38,28 @@ public class MainCharacter : MonoBehaviour
         {
             enemy = collision.gameObject.GetComponent<EnemyBehavior>();
             GameManager.Instance.CurrentGameStates = GameManager.GameStates.Defense;
+            //StartCoroutine(CheckInputsInDefense(enemy));
+            StartCoroutine(InitDefenseTimer(enemy));
 
             GameManager.Instance.EnemyTriggered(enemy);//Envoie l'information de l'ennemi dans la zone au Game Manager.
         }
     }
 
+    IEnumerator CheckInputsInDefense(EnemyBehavior enemy) {
+        ScriptableInputsPattern pattern = enemy.ChoosenPattern;
+        int index = 0;
+        while(index != pattern.inputs.Count) {
+            if (Input.GetKey(pattern.inputs[index])) {
+                index++;
+            }
+            yield return new WaitForEndOfFrame();
+        }
+        GameManager.Instance.EndDefense(true, enemy);
+    }
+
+    IEnumerator InitDefenseTimer(EnemyBehavior enemy) {
+        yield return new WaitForSecondsRealtime(enemy.timeDuringDefense);
+        StopCoroutine(CheckInputsInDefense(enemy));
+        GameManager.Instance.EndDefense(false, enemy);
+    }
 }
