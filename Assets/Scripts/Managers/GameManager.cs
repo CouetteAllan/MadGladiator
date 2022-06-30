@@ -75,10 +75,12 @@ public class GameManager : MonoBehaviour
 
         }
     }
-
     public static int score;
     [SerializeField]private int lives = 4;
-    
+
+    [Header("Defense Phase")]
+    public float updateTime = 0.01f;
+    public float delayTimeAfterFailed = 0.1f;
 
     public int AddScore(int scoreToAdd)
     {

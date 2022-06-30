@@ -672,17 +672,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  speed: 0.1
+  speed: 0.2
   memorizeZoneMask:
     serializedVersion: 2
     m_Bits: 128
-  name: EnemyName
+  name: Tauros
   scoreEarned: 100
   damages: 1
   timeDuringDefense: 4
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}
+  - {fileID: 11400000, guid: b933b580691223b408933bfe062d85ef, type: 2}
+  - {fileID: 11400000, guid: 4d9352426b7807a4abffa79a528a4018, type: 2}
+  - {fileID: 11400000, guid: 0cac91fc7d29835428964c96960bf0f8, type: 2}
+  - {fileID: 11400000, guid: 13b30e7ca2a9a894a86ab4ffdf6a75ed, type: 2}
+  - {fileID: 11400000, guid: 30d549ffec371234e955bdf8ca18e3fd, type: 2}
   inputsKeyRenderers:
   - {fileID: 186510243164176525}
   - {fileID: 7508394569575224261}

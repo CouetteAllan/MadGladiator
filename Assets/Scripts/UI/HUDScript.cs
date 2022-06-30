@@ -98,8 +98,12 @@ public class HUDScript : MonoBehaviour
                 inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().SetText(chars[index].ToString());
                 index++;
                 actualIndex++;
+                yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
+            } else if (Input.anyKey) {
+                yield return new WaitForSecondsRealtime(GameManager.Instance.delayTimeAfterFailed);
+            } else {
+                yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
             }
-            yield return new WaitForEndOfFrame();
         }
     }
 

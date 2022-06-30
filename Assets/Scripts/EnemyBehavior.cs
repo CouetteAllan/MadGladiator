@@ -82,4 +82,13 @@ public class EnemyBehavior : MonoBehaviour {
         }
         yield return null;
     }
+
+    public void Kill(bool defenseSuceeded) {
+        if (defenseSuceeded) {
+            animator.SetTrigger("Death");
+        } else {
+            animator.SetTrigger("Attack");
+        }
+        Destroy(this.gameObject, 0.5f);
+    }
 }

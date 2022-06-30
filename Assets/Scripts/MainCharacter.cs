@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MainCharacter : MonoBehaviour
 {
+    [SerializeField] Animator animator;
     public int Lives { get => GameManager.Instance.GetLives(); } //Les vies dépendent des vies stockées dans le game manager où tout le monde peut y avoir accès sans trop de problème
 
     private bool Dead //Dead = true si plus de vies
@@ -37,6 +38,10 @@ public class MainCharacter : MonoBehaviour
         if(collision.gameObject.tag == "Enemy")
         {
             enemy = collision.gameObject.GetComponent<EnemyBehavior>();
+            animator.SetFloat("DirectionX", enemy.transform.position.x - this.transform.position.x);
+            animator.SetFloat("DirectionY", enemy.transform.position.y - this.transform.position.y);
+
+
             GameManager.Instance.CurrentGameStates = GameManager.GameStates.Defense;
             StartCoroutine(CheckInputsInDefense(enemy));
             StartCoroutine(InitDefenseTimer(enemy));
@@ -48,20 +53,26 @@ public class MainCharacter : MonoBehaviour
     IEnumerator CheckInputsInDefense(EnemyBehavior enemy) {
         ScriptableInputsPattern pattern = enemy.ChoosenPattern;
         int index = 0;
-        while(index != pattern.inputs.Count) {
+        while (index != pattern.inputs.Count) {
             if (Input.GetKey(pattern.inputs[index])) {
                 index++;
-
+                yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
+            } else if (Input.anyKey) {
+                yield return new WaitForSecondsRealtime(GameManager.Instance.delayTimeAfterFailed);
+            } else {
+                yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
             }
-            yield return new WaitForEndOfFrame();
         }
         GameManager.Instance.EndDefense(true, enemy);
         StopAllCoroutines();
+        animator.SetTrigger("Attack");
+        enemy.Kill(true);
     }
 
     IEnumerator InitDefenseTimer(EnemyBehavior enemy) {
         yield return new WaitForSecondsRealtime(enemy.timeDuringDefense);
         StopCoroutine(CheckInputsInDefense(enemy));
         GameManager.Instance.EndDefense(false, enemy);
+        enemy.Kill(false);
     }
 }

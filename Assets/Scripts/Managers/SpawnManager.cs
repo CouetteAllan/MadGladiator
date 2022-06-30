@@ -16,7 +16,7 @@ public class SpawnManager : MonoBehaviour {
 
     void Update() {
 #if UNITY_EDITOR
-        if (Input.GetKeyDown(KeyCode.S)) {
+        if (Input.GetMouseButtonDown(0)) {
             Spawn();
         }
 #endif
