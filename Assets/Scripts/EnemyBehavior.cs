@@ -10,9 +10,11 @@ public class EnemyBehavior : MonoBehaviour {
     [SerializeField] float speed = 0.1f;
     [SerializeField] LayerMask memorizeZoneMask;
 
+    [Header("Stats")]
     public new string name = "EnemyName";
     public int scoreEarned = 100;
     public int damages = 1;
+    public float timeDuringDefense = 4f;
 
     [Header("Inputs")]
     [SerializeField] List<ScriptableInputsPattern> scriptableInputsPatterns;
