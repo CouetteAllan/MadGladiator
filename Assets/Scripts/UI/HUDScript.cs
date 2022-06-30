@@ -58,21 +58,22 @@ public class HUDScript : MonoBehaviour
                 continue;
             }
         }
-        StartCoroutine(CheckInputsInDefense(enemy));
+        StartCoroutine(CheckInputsInDefenseUI(enemy));
 
     }
 
 
-    IEnumerator CheckInputsInDefense(EnemyBehavior enemy)
+    IEnumerator CheckInputsInDefenseUI(EnemyBehavior enemy)
     {
+        char[] chars = enemy.CharsOfChoosenPattern;
         ScriptableInputsPattern pattern = enemy.ChoosenPattern;
         int index = 0;
         while (index != pattern.inputs.Count)
         {
             if (Input.GetKey(pattern.inputs[index]))
             {
+                inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().SetText(chars[index].ToString());
                 index++;
-
             }
             yield return new WaitForEndOfFrame();
         }
