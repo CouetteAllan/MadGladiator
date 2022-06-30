@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 6861484186971061902}
   - component: {fileID: 7903561733657730426}
   m_Layer: 6
-  m_Name: Taureau
+  m_Name: Lion
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -648,7 +648,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: -843900671912866349, guid: c097f4f58b7a7b24da1fb470145abcb5, type: 3}
+  m_Sprite: {fileID: 3895031750767565878, guid: f47025477e5dce9448c25b4a2af6d376, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -672,14 +672,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  speed: 0.2
+  speed: 0.8
   memorizeZoneMask:
     serializedVersion: 2
     m_Bits: 128
-  name: Taureau
-  scoreEarned: 100
+  name: Lion
+  scoreEarned: 250
   damages: 1
-  timeDuringDefense: 4
+  timeDuringDefense: 5
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}
@@ -708,7 +708,7 @@ Animator:
   m_GameObject: {fileID: 2633401135638313825}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 67576c7d0d8bb0e4dbe793868fe653a5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 4cdfa3727d051f446b590e61473cd5c2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
