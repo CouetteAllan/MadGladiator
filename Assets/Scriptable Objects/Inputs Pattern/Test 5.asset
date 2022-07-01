@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a8bcbbd9ac62f540b08ebe5623710f6, type: 3}
   m_Name: Test 5
   m_EditorClassIdentifier: 
-  inputsString: AZFRTY
-  inputs: 610000007a00000066000000720000007400000079000000
+  inputsString: AZERTY
+  inputs: 610000007a00000065000000720000007400000079000000

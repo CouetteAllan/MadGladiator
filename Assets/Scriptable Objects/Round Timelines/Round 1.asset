@@ -13,15 +13,15 @@ MonoBehaviour:
   m_Name: Round 1
   m_EditorClassIdentifier: 
   events:
-  - enemyName: -1
+  - enemyName: 3
     spawnTime: 0
     positionIndex: -1
     patternIndex: 1
-  - enemyName: -1
-    spawnTime: 5
+  - enemyName: 3
+    spawnTime: 3
     positionIndex: -1
     patternIndex: 6
-  - enemyName: -1
-    spawnTime: 10
+  - enemyName: 3
+    spawnTime: 7
     positionIndex: -1
     patternIndex: 0

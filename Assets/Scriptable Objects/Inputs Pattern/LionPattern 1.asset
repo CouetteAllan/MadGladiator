@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a8bcbbd9ac62f540b08ebe5623710f6, type: 3}
-  m_Name: Test 2
+  m_Name: LionPattern 1
   m_EditorClassIdentifier: 
-  inputsString: MLKGFDS
-  inputs: 6d0000006c0000006b00000067000000660000006400000073000000
+  inputsString: EJF
+  inputs: 650000006a00000066000000

@@ -91,7 +91,7 @@ public class HUDScript : MonoBehaviour {
         while (index != pattern.inputs.Count) {
             if (Input.GetKey(pattern.inputs[index])) {
                 inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().SetText(chars[index].ToString());
-                inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().color = new Color32(86, 95, 243, 250);
+                inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().color = new Color32(119, 255, 176, 250);
                 inputsKeyRenderers[index].GetComponent<Animator>().SetTrigger("Bounce");
 
                 index++;
