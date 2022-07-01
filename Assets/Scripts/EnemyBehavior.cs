@@ -9,6 +9,7 @@ public class EnemyBehavior : MonoBehaviour {
     public Vector3 targetPosition = new Vector2(0f, 0f);
     [SerializeField] float speed = 0.1f;
     [SerializeField] LayerMask memorizeZoneMask;
+    private bool inMemorizeZone;
 
     [Header("Stats")]
     public new string name = "EnemyName";
@@ -41,6 +42,15 @@ public class EnemyBehavior : MonoBehaviour {
     void Update() {
         if(!stopMoving)
             this.transform.position = Vector2.Lerp(this.transform.position, targetPosition, speed * Time.deltaTime);
+        if (inMemorizeZone)
+        {
+            foreach (var item in inputsKeyRenderers)
+            {
+                var color = item.GetChild(0).GetComponent<TextMeshProUGUI>().color
+                color = new Color(0, 0, 0, ((100 * speed )/255) * Time.deltaTime);
+            }
+        }
+
     }
 
     void InitAnim() {
@@ -80,6 +90,7 @@ public class EnemyBehavior : MonoBehaviour {
     private void OnTriggerEnter2D(Collider2D collision) {
         if(memorizeZoneMask == (memorizeZoneMask | (1 << collision.gameObject.layer))) {
             StartCoroutine(HideInputsPattern());
+            inMemorizeZone = true;
         }
     }
 
