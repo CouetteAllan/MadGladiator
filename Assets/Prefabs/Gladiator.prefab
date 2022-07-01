@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7770854960700025408}
   - component: {fileID: 7665906750902900040}
   - component: {fileID: 3165370468713848166}
+  - component: {fileID: 2958263596657162206}
   m_Layer: 0
   m_Name: Gladiator
   m_TagString: Untagged
@@ -135,3 +136,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2958263596657162206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8226274248736234174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41388a5b7a0565b4da85fd67c91dea86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCam: {fileID: 0}

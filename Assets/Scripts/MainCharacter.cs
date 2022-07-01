@@ -22,6 +22,7 @@ public class MainCharacter : MonoBehaviour
     void Start()
     {
         Debug.Log(Lives);
+        GameManager.Instance.SetPlayer(this);
     }
     
     void Update()
