@@ -29,6 +29,33 @@ TextureImporter:
   - first:
       213: -1314342935119115048
     second: Tauros teigneux attaque-Sheet_8
+  - first:
+      213: 3694879351767604905
+    second: Taureau_Attack_Right_0
+  - first:
+      213: 8605619946640900841
+    second: Taureau_Attack_Right_1
+  - first:
+      213: 362451516690607365
+    second: Taureau_Attack_Right_2
+  - first:
+      213: 3344492962615684458
+    second: Taureau_Attack_Right_3
+  - first:
+      213: 5990555521505917294
+    second: Taureau_Attack_Right_4
+  - first:
+      213: 4140561396659442316
+    second: Taureau_Attack_Right_5
+  - first:
+      213: 8806482587590503333
+    second: Taureau_Attack_Right_6
+  - first:
+      213: -1406103772278345027
+    second: Taureau_Attack_Right_7
+  - first:
+      213: 3461604135301123590
+    second: Taureau_Attack_Right_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -118,190 +145,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_0
+      name: Taureau_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c8452f0c940c00a0800000000000000
-      internalID: -6914146259605043002
+      spriteID: 9ae9802b139d64330800000000000000
+      internalID: 3694879351767604905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_1
+      name: Taureau_Attack_Right_1
       rect:
         serializedVersion: 2
         x: 500
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4002885f1815e7ce0800000000000000
-      internalID: -1405596415081046012
+      spriteID: 9e20c873fbd4d6770800000000000000
+      internalID: 8605619946640900841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_2
+      name: Taureau_Attack_Right_2
       rect:
         serializedVersion: 2
         x: 1000
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a62376424d7164da0800000000000000
-      internalID: -5961050856867024278
+      spriteID: 50d25acebbfa70500800000000000000
+      internalID: 362451516690607365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_3
+      name: Taureau_Attack_Right_3
       rect:
         serializedVersion: 2
         x: 1500
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2d2f9246b174fe70800000000000000
-      internalID: 9148061770712034605
+      spriteID: a6d608e21a60a6e20800000000000000
+      internalID: 3344492962615684458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_4
+      name: Taureau_Attack_Right_4
       rect:
         serializedVersion: 2
         x: 2000
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33e152e30b24fba00800000000000000
-      internalID: 774410985655311923
+      spriteID: e697d9ae18ab22350800000000000000
+      internalID: 5990555521505917294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_5
+      name: Taureau_Attack_Right_5
       rect:
         serializedVersion: 2
         x: 2500
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0087cee1df44ea0800000000000000
-      internalID: -5889304103435632442
+      spriteID: c82d49217aa367930800000000000000
+      internalID: 4140561396659442316
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_6
+      name: Taureau_Attack_Right_6
       rect:
         serializedVersion: 2
         x: 3000
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdc499c02f9446840800000000000000
-      internalID: 5216375572344163548
+      spriteID: 5abaef13149e63a70800000000000000
+      internalID: 8806482587590503333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_7
+      name: Taureau_Attack_Right_7
       rect:
         serializedVersion: 2
         x: 3500
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad564c2160ed67520800000000000000
-      internalID: 2699589144321222106
+      spriteID: db23308a1148c7ce0800000000000000
+      internalID: -1406103772278345027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux attaque-Sheet_8
+      name: Taureau_Attack_Right_8
       rect:
         serializedVersion: 2
         x: 4000
         y: 0
         width: 500
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8dc4e2f601482cde0800000000000000
-      internalID: -1314342935119115048
+      spriteID: 60e85a5ee961a0030800000000000000
+      internalID: 3461604135301123590
       vertices: []
       indices: 
       edges: []

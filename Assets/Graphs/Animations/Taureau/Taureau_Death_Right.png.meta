@@ -44,6 +44,48 @@ TextureImporter:
   - first:
       213: 8385414755593961226
     second: Tauros teigneux mort-Sheet_13
+  - first:
+      213: -1650393644731896155
+    second: Taureau_Death_Right_0
+  - first:
+      213: 6537146658120757300
+    second: Taureau_Death_Right_1
+  - first:
+      213: 7163472112264121529
+    second: Taureau_Death_Right_2
+  - first:
+      213: 7958022626498323769
+    second: Taureau_Death_Right_3
+  - first:
+      213: -2597400935408950756
+    second: Taureau_Death_Right_4
+  - first:
+      213: 7283831125130918761
+    second: Taureau_Death_Right_5
+  - first:
+      213: 3244377703021868700
+    second: Taureau_Death_Right_6
+  - first:
+      213: -5289628484904733405
+    second: Taureau_Death_Right_7
+  - first:
+      213: 4271676936792930190
+    second: Taureau_Death_Right_8
+  - first:
+      213: -452510124739181777
+    second: Taureau_Death_Right_9
+  - first:
+      213: 6876368001110038594
+    second: Taureau_Death_Right_10
+  - first:
+      213: -2492146982667585645
+    second: Taureau_Death_Right_11
+  - first:
+      213: 4144690927398053567
+    second: Taureau_Death_Right_12
+  - first:
+      213: -7224232041839409641
+    second: Taureau_Death_Right_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,295 +175,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_0
+      name: Taureau_Death_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8416d72b9df990c40800000000000000
-      internalID: 5479086179024200008
+      spriteID: 5ae613a69bf9819e0800000000000000
+      internalID: -1650393644731896155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_1
+      name: Taureau_Death_Right_1
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee1df3d37c2e38080800000000000000
-      internalID: -9186249469551717906
+      spriteID: 4307be1104c98ba50800000000000000
+      internalID: 6537146658120757300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_2
+      name: Taureau_Death_Right_2
       rect:
         serializedVersion: 2
         x: 800
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1243734f369f768c0800000000000000
-      internalID: -4005959135828429791
+      spriteID: 9bc8be1bee3c96360800000000000000
+      internalID: 7163472112264121529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_3
+      name: Taureau_Death_Right_3
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfdda59a865cfbf60800000000000000
-      internalID: 8052371712070311420
+      spriteID: 93524f65a63907e60800000000000000
+      internalID: 7958022626498323769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_4
+      name: Taureau_Death_Right_4
       rect:
         serializedVersion: 2
         x: 1600
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb8382bcedb4c78d0800000000000000
-      internalID: -2847317444141762373
+      spriteID: c12aea16c9d24fbd0800000000000000
+      internalID: -2597400935408950756
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_5
+      name: Taureau_Death_Right_5
       rect:
         serializedVersion: 2
         x: 2000
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dfd26d9050b15470800000000000000
-      internalID: 8381674241797578713
+      spriteID: 96bbc5121dd551560800000000000000
+      internalID: 7283831125130918761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_6
+      name: Taureau_Death_Right_6
       rect:
         serializedVersion: 2
         x: 2400
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04567aecf211eeb10800000000000000
-      internalID: 2012564980509402432
+      spriteID: c96f0d9d458560d20800000000000000
+      internalID: 3244377703021868700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_7
+      name: Taureau_Death_Right_7
       rect:
         serializedVersion: 2
         x: 2800
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11530b44c5ba86550800000000000000
-      internalID: 6154357303579522321
+      spriteID: 325377b2be67796b0800000000000000
+      internalID: -5289628484904733405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_8
+      name: Taureau_Death_Right_8
       rect:
         serializedVersion: 2
         x: 3200
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78c35bfc99865b110800000000000000
-      internalID: 1276041079253449863
+      spriteID: e8775ccaa8b084b30800000000000000
+      internalID: 4271676936792930190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_9
+      name: Taureau_Death_Right_9
       rect:
         serializedVersion: 2
         x: 3600
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d663c648edb7dc2c0800000000000000
-      internalID: -4409732264491207059
+      spriteID: f2347a5607c58b9f0800000000000000
+      internalID: -452510124739181777
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_10
+      name: Taureau_Death_Right_10
       rect:
         serializedVersion: 2
         x: 4000
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbcdc257e79f6e820800000000000000
-      internalID: 2947317327687638207
+      spriteID: 248d603b344cd6f50800000000000000
+      internalID: 6876368001110038594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_11
+      name: Taureau_Death_Right_11
       rect:
         serializedVersion: 2
         x: 4400
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 123093c397a82ef40800000000000000
-      internalID: 5756315527038960417
+      spriteID: 3977902f58d1a6dd0800000000000000
+      internalID: -2492146982667585645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_12
+      name: Taureau_Death_Right_12
       rect:
         serializedVersion: 2
         x: 4800
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa36559be1fbf80f0800000000000000
-      internalID: -1112460444257918038
+      spriteID: fb6685f5076e48930800000000000000
+      internalID: 4144690927398053567
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux mort-Sheet_13
+      name: Taureau_Death_Right_13
       rect:
         serializedVersion: 2
         x: 5200
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f3f79da4afe5470800000000000000
-      internalID: 8385414755593961226
+      spriteID: 716ca2bcb3f5ebb90800000000000000
+      internalID: -7224232041839409641
       vertices: []
       indices: 
       edges: []

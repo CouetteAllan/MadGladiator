@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -2996426043024677079
     second: Light_Attack (1)_4
+  - first:
+      213: 3054880069678239429
+    second: Light_Attack_Right_0
+  - first:
+      213: 3273653009306074023
+    second: Light_Attack_Right_1
+  - first:
+      213: 8894252883187959691
+    second: Light_Attack_Right_2
+  - first:
+      213: -498895331926568769
+    second: Light_Attack_Right_3
+  - first:
+      213: -3431807029415751254
+    second: Light_Attack_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +76,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Light_Attack (1)_0
+      name: Light_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -120,14 +135,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35434067e0ca468e0800000000000000
-      internalID: -1701045581129698221
+      spriteID: 5ce8798ec3d156a20800000000000000
+      internalID: 3054880069678239429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Attack (1)_1
+      name: Light_Attack_Right_1
       rect:
         serializedVersion: 2
         x: 700
@@ -141,14 +156,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b3ffec829084430800000000000000
-      internalID: 3767271159171595083
+      spriteID: 7abb391411a5e6d20800000000000000
+      internalID: 3273653009306074023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Attack (1)_2
+      name: Light_Attack_Right_2
       rect:
         serializedVersion: 2
         x: 1400
@@ -162,14 +177,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f4a14b5ea9c22d0800000000000000
-      internalID: -3302094115409604848
+      spriteID: b8789ec9fdbbe6b70800000000000000
+      internalID: 8894252883187959691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Attack (1)_3
+      name: Light_Attack_Right_3
       rect:
         serializedVersion: 2
         x: 2100
@@ -183,14 +198,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42d3a8744cc19b8d0800000000000000
-      internalID: -2830199261486236380
+      spriteID: fb09a60c6519319f0800000000000000
+      internalID: -498895331926568769
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Attack (1)_4
+      name: Light_Attack_Right_4
       rect:
         serializedVersion: 2
         x: 2800
@@ -204,8 +219,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 927e8cdb36e8a66d0800000000000000
-      internalID: -2996426043024677079
+      spriteID: aa15cf170b5cf50d0800000000000000
+      internalID: -3431807029415751254
       vertices: []
       indices: 
       edges: []
