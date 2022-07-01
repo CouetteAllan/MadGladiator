@@ -14,14 +14,18 @@ public class MainCharacter : MonoBehaviour
         get => Lives <= 0;
     }
 
+    private AudioSource oofSound;
+
     private void Awake()
     {
         camShakeScript = Camera.main.GetComponent<CamShake>();
+        oofSound = this.GetComponent<AudioSource>();
     }
 
     void Start()
     {
         Debug.Log(Lives);
+        GameManager.Instance.SetPlayer(this);
     }
     
     void Update()
@@ -80,6 +84,7 @@ public class MainCharacter : MonoBehaviour
         yield return new WaitForSecondsRealtime(enemy.timeDuringDefense);
         StopCoroutine(CheckInputsInDefense(enemy));
         GameManager.Instance.EndDefense(false, enemy);
+        oofSound.Play();
         enemy.Kill(false);
     }
 }

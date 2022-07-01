@@ -20,11 +20,16 @@ public class GameManager : MonoBehaviour {
 
     #endregion
 
+    public Camera cam;
+    private MainCharacter player;
+
     private void OnEnable() {
         instance = this;
     }
     private void Start() {
         CurrentGameStates = GameStates.MainMenu;
+        cam = Camera.main;
+        
     }
 
     private GameStates gameState;
@@ -99,6 +104,11 @@ public class GameManager : MonoBehaviour {
         return lives;
     }
 
+    public void SetPlayer(MainCharacter player)
+    {
+        this.player = player;
+    }
+
     public void Damaged(int damages) {
         lives -= damages;
     }
@@ -114,11 +124,15 @@ public class GameManager : MonoBehaviour {
             AddScore(enemy.scoreEarned);
         } else {
             Damaged(enemy.damages);
+            player.GetComponent<CamShake>().Shake(0.1f, 0.25f);
+            player.GetComponent<Animator>().SetTrigger("Hurt");
         }
 
         CurrentGameStates = GameStates.InGame;
 
     }
+
+
 
     private void Update() {
 #if UNITY_EDITOR
