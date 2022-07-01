@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -1879760664134576416
     second: Player_Attack_4
+  - first:
+      213: 5391821087250167391
+    second: Player_Attack_Right_0
+  - first:
+      213: 4033702438232501101
+    second: Player_Attack_Right_1
+  - first:
+      213: 7797580373019887240
+    second: Player_Attack_Right_2
+  - first:
+      213: 724809502169652825
+    second: Player_Attack_Right_3
+  - first:
+      213: 6479812551691598753
+    second: Player_Attack_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +76,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 350
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,106 +121,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player_Attack_0
+      name: Player_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 700
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d50501587516b0790800000000000000
-      internalID: -7562844120716128163
+      spriteID: f56b10636b893da40800000000000000
+      internalID: 5391821087250167391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Attack_1
+      name: Player_Attack_Right_1
       rect:
         serializedVersion: 2
         x: 700
         y: 0
         width: 700
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4eb00652de4aa9a0800000000000000
-      internalID: -6221073269965930934
+      spriteID: d6ba9700ff69af730800000000000000
+      internalID: 4033702438232501101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Attack_2
+      name: Player_Attack_Right_2
       rect:
         serializedVersion: 2
         x: 1400
         y: 0
         width: 700
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b3f82dbad35dcf0800000000000000
-      internalID: -228208397931037945
+      spriteID: 88688613902963c60800000000000000
+      internalID: 7797580373019887240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Attack_3
+      name: Player_Attack_Right_3
       rect:
         serializedVersion: 2
         x: 2100
         y: 0
         width: 700
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b877919614eaea080800000000000000
-      internalID: -9174203794947737717
+      spriteID: 95e56aae66a0f0a00800000000000000
+      internalID: 724809502169652825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Player_Attack_4
+      name: Player_Attack_Right_4
       rect:
         serializedVersion: 2
         x: 2800
         y: 0
         width: 700
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e69187a2afb9e5e0800000000000000
-      internalID: -1879760664134576416
+      spriteID: 1abf1ba2f2bece950800000000000000
+      internalID: 6479812551691598753
       vertices: []
       indices: 
       edges: []

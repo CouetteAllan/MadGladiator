@@ -50,6 +50,7 @@ public class GameManager : MonoBehaviour {
             UIManager.Instance.UpdateUI((int)oldState, (int)currentGameState);
             switch (currentGameState) {
                 case GameStates.MainMenu:
+                    Time.timeScale = 1f;
                     Init();
                     break;
 
@@ -65,8 +66,11 @@ public class GameManager : MonoBehaviour {
                     break;
 
                 case GameStates.GameOver:
-                    Time.timeScale = 0.0f;
-                    Time.fixedDeltaTime = 0.02f * Time.timeScale;
+                    Time.timeScale = 0f;
+                    foreach (var item in GameObject.FindGameObjectsWithTag("Enemy")) {
+                        Destroy(item);
+                    }
+                    StopAllCoroutines();
                     break;
 
                 case GameStates.Defense:
@@ -89,10 +93,12 @@ public class GameManager : MonoBehaviour {
     [Header("Defense Phase")]
     public float updateTime = 0.01f;
     public float delayTimeAfterFailed = 0.3f;
-
     private void Init() {
         score = 0;
         round = 0;
+        lives = 4;
+        player.InitAnim();
+        player.animDone = false;
     }
     public int AddScore(int scoreToAdd) {
         score += scoreToAdd;
@@ -126,6 +132,7 @@ public class GameManager : MonoBehaviour {
             Damaged(enemy.damages);
             player.GetComponent<CamShake>().Shake(0.1f, 0.25f);
             player.GetComponent<Animator>().SetTrigger("Hurt");
+            player.GetComponent<Animator>().SetInteger("Lives", GetLives());
         }
 
         CurrentGameStates = GameStates.InGame;

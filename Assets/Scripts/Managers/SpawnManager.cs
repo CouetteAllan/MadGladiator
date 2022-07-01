@@ -25,7 +25,7 @@ public class SpawnManager : MonoBehaviour {
     void Update() {
 #if UNITY_EDITOR
         if (Input.GetMouseButtonDown(1)) {
-            Spawn();
+            Spawn(enemyIndex:1);
         }
 #endif
     }

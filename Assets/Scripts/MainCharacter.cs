@@ -27,6 +27,9 @@ public class MainCharacter : MonoBehaviour
         Debug.Log(Lives);
         GameManager.Instance.SetPlayer(this);
     }
+    public void InitAnim() {
+        animator.SetInteger("Lives", Lives);
+    }
     
     void Update()
     {
@@ -37,11 +40,13 @@ public class MainCharacter : MonoBehaviour
             Debug.Log("Dead is" + Dead);
         }*/
 
-        if (Dead) //Si on a plus de vie, on passe le jeu en mode Game Over
+        if (Dead && !animDone) //Si on a plus de vie, on passe le jeu en mode Game Over
         {
-            GameManager.Instance.CurrentGameStates = GameManager.GameStates.GameOver;
+            animDone = true;
+            StartCoroutine(Deadge());
         }
     }
+    public bool animDone = false;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -82,9 +87,15 @@ public class MainCharacter : MonoBehaviour
 
     IEnumerator InitDefenseTimer(EnemyBehavior enemy) {
         yield return new WaitForSecondsRealtime(enemy.timeDuringDefense);
-        StopCoroutine(CheckInputsInDefense(enemy));
-        GameManager.Instance.EndDefense(false, enemy);
+        StopAllCoroutines();
         oofSound.Play();
         enemy.Kill(false);
+        GameManager.Instance.EndDefense(false, enemy);
+    }
+
+    IEnumerator Deadge() {
+        Time.timeScale = 0f;
+        yield return new WaitForSecondsRealtime(animator.GetCurrentAnimatorClipInfo(0).Length + 1f);
+        GameManager.Instance.CurrentGameStates = GameManager.GameStates.GameOver;
     }
 }
