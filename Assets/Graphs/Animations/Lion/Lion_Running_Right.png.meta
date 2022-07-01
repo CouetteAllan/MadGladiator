@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: 4387622915096115476
     second: Lion Agresse-Sheet_4
+  - first:
+      213: -1126959242664794720
+    second: Lion_Running_Right_0
+  - first:
+      213: 3144156044172198905
+    second: Lion_Running_Right_1
+  - first:
+      213: -8240565357515296773
+    second: Lion_Running_Right_2
+  - first:
+      213: 4187858440830400778
+    second: Lion_Running_Right_3
+  - first:
+      213: -5925180764043457942
+    second: Lion_Running_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,106 +121,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lion Agresse-Sheet_0
+      name: Lion_Running_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2959260f8e0851940800000000000000
-      internalID: 5266257077233423762
+      spriteID: 0a52f982a8c3c50f0800000000000000
+      internalID: -1126959242664794720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse-Sheet_1
+      name: Lion_Running_Right_1
       rect:
         serializedVersion: 2
         x: 600
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a717e1ac5b533ded0800000000000000
-      internalID: -2390507922307255942
+      spriteID: 9f30843834942ab20800000000000000
+      internalID: 3144156044172198905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse-Sheet_2
+      name: Lion_Running_Right_2
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 304b2095bfa4b9690800000000000000
-      internalID: -7594393903239613437
+      spriteID: bff29ecb771a3ad80800000000000000
+      internalID: -8240565357515296773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse-Sheet_3
+      name: Lion_Running_Right_3
       rect:
         serializedVersion: 2
         x: 1800
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd09a18041d4c2e90800000000000000
-      internalID: -7049174568311025443
+      spriteID: a09315f40134e1a30800000000000000
+      internalID: 4187858440830400778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse-Sheet_4
+      name: Lion_Running_Right_4
       rect:
         serializedVersion: 2
         x: 2400
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 419faae6bc7f3ec30800000000000000
-      internalID: 4387622915096115476
+      spriteID: a6a4631fc7785cda0800000000000000
+      internalID: -5925180764043457942
       vertices: []
       indices: 
       edges: []

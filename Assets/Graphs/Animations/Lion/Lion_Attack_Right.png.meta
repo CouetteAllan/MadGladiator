@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: 1571356976214380958
     second: Lion Agresse Attack fusion-Sheet_4
+  - first:
+      213: 5402120654519474357
+    second: Lion_Attack_Right_0
+  - first:
+      213: 896472026184651379
+    second: Lion_Attack_Right_1
+  - first:
+      213: 8880430974583600776
+    second: Lion_Attack_Right_2
+  - first:
+      213: 3056624245554359581
+    second: Lion_Attack_Right_3
+  - first:
+      213: -3672255028920315673
+    second: Lion_Attack_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,106 +121,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lion Agresse Attack fusion-Sheet_0
+      name: Lion_Attack_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34b537d650faf8d0800000000000000
-      internalID: -2811670761570978756
+      spriteID: 5b81f661d1038fa40800000000000000
+      internalID: 5402120654519474357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse Attack fusion-Sheet_1
+      name: Lion_Attack_Right_1
       rect:
         serializedVersion: 2
         x: 600
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b958058cd0af9e1e0800000000000000
-      internalID: -2167926808499944037
+      spriteID: 3729fcfde88e07c00800000000000000
+      internalID: 896472026184651379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse Attack fusion-Sheet_2
+      name: Lion_Attack_Right_2
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33168180d8321d2c0800000000000000
-      internalID: -4408703471585828557
+      spriteID: 8867e6cbbe0ad3b70800000000000000
+      internalID: 8880430974583600776
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse Attack fusion-Sheet_3
+      name: Lion_Attack_Right_3
       rect:
         serializedVersion: 2
         x: 1800
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3f3a2e747878e6c0800000000000000
-      internalID: -4113905817874710726
+      spriteID: d1d2d108e8f4b6a20800000000000000
+      internalID: 3056624245554359581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse Attack fusion-Sheet_4
+      name: Lion_Attack_Right_4
       rect:
         serializedVersion: 2
         x: 2400
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91179e28d49ec510800000000000000
-      internalID: 1571356976214380958
+      spriteID: 7e01094f187890dc0800000000000000
+      internalID: -3672255028920315673
       vertices: []
       indices: 
       edges: []

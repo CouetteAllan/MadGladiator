@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: 4607172358384162940
     second: Heavy_Idle_4
+  - first:
+      213: -7800176321809778788
+    second: Heavy_Running_Right_0
+  - first:
+      213: -6395428399374035277
+    second: Heavy_Running_Right_1
+  - first:
+      213: 7288802588629664116
+    second: Heavy_Running_Right_2
+  - first:
+      213: 2141339283785453631
+    second: Heavy_Running_Right_3
+  - first:
+      213: -8514248824040937922
+    second: Heavy_Running_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +76,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 250
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -106,106 +121,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Heavy_Idle_0
+      name: Heavy_Running_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 1000
         height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9cbd7ff084e532c0800000000000000
-      internalID: -4452401413892490083
+      spriteID: c977d1166f430c390800000000000000
+      internalID: -7800176321809778788
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Idle_1
+      name: Heavy_Running_Right_1
       rect:
         serializedVersion: 2
         x: 1000
         y: 0
         width: 1000
         height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb274a685c63bd9d0800000000000000
-      internalID: -2748542925584174401
+      spriteID: 3b69dd451cfde37a0800000000000000
+      internalID: -6395428399374035277
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Idle_2
+      name: Heavy_Running_Right_2
       rect:
         serializedVersion: 2
         x: 2000
         y: 0
         width: 1000
         height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af507710f9152ec10800000000000000
-      internalID: 2081315721164817914
+      spriteID: 471083d2657072560800000000000000
+      internalID: 7288802588629664116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Idle_3
+      name: Heavy_Running_Right_3
       rect:
         serializedVersion: 2
         x: 3000
         y: 0
         width: 1000
         height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a060e54854bb97eb0800000000000000
-      internalID: -4721536827073362422
+      spriteID: f301f99bbb097bd10800000000000000
+      internalID: 2141339283785453631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Heavy_Idle_4
+      name: Heavy_Running_Right_4
       rect:
         serializedVersion: 2
         x: 4000
         y: 0
         width: 1000
         height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c789c70a9d6ffef30800000000000000
-      internalID: 4607172358384162940
+      spriteID: e36a0c11ecf47d980800000000000000
+      internalID: -8514248824040937922
       vertices: []
       indices: 
       edges: []

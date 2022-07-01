@@ -26,6 +26,30 @@ TextureImporter:
   - first:
       213: -2622039177137820291
     second: Light_Death_7
+  - first:
+      213: 4707857607620129394
+    second: Light_Death_Right_0
+  - first:
+      213: 8974093544167405781
+    second: Light_Death_Right_1
+  - first:
+      213: 8251470140519333253
+    second: Light_Death_Right_2
+  - first:
+      213: 770529075035617645
+    second: Light_Death_Right_3
+  - first:
+      213: -752289026291432955
+    second: Light_Death_Right_4
+  - first:
+      213: 7367408489788907239
+    second: Light_Death_Right_5
+  - first:
+      213: 8290187845512062414
+    second: Light_Death_Right_6
+  - first:
+      213: 2485707674199749184
+    second: Light_Death_Right_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -70,7 +94,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 200
+  spritePixelsToUnits: 250
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -115,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Light_Death_0
+      name: Light_Death_Right_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0858d28567896a900800000000000000
-      internalID: 695410826528261504
+      spriteID: 27271530d8ba55140800000000000000
+      internalID: 4707857607620129394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_1
+      name: Light_Death_Right_1
       rect:
         serializedVersion: 2
         x: 1000
@@ -150,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94958d1f3ef7f33b0800000000000000
-      internalID: -5530561200395888311
+      spriteID: 5d8793918826a8c70800000000000000
+      internalID: 8974093544167405781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_2
+      name: Light_Death_Right_2
       rect:
         serializedVersion: 2
         x: 2000
@@ -171,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1bbac37f014ad8d0800000000000000
-      internalID: -2820870681971213540
+      spriteID: 58db568ef5c138270800000000000000
+      internalID: 8251470140519333253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_3
+      name: Light_Death_Right_3
       rect:
         serializedVersion: 2
         x: 3000
@@ -192,14 +216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c57c87eb7ca7a480800000000000000
-      internalID: -8887945691426687548
+      spriteID: d69bb9e7c1871ba00800000000000000
+      internalID: 770529075035617645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_4
+      name: Light_Death_Right_4
       rect:
         serializedVersion: 2
         x: 4000
@@ -213,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c068c8ae1471b55e0800000000000000
-      internalID: -1919915244267993588
+      spriteID: 502897bcd155f85f0800000000000000
+      internalID: -752289026291432955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_5
+      name: Light_Death_Right_5
       rect:
         serializedVersion: 2
         x: 5000
@@ -234,14 +258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 774dad62c547a6fe0800000000000000
-      internalID: -1195014811975756681
+      spriteID: 7ee901dbcfa4e3660800000000000000
+      internalID: 7367408489788907239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_6
+      name: Light_Death_Right_6
       rect:
         serializedVersion: 2
         x: 6000
@@ -255,14 +279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd7746edfdac48960800000000000000
-      internalID: 7603425133765883867
+      spriteID: ec5e1051ce9ac0370800000000000000
+      internalID: 8290187845512062414
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Light_Death_7
+      name: Light_Death_Right_7
       rect:
         serializedVersion: 2
         x: 7000
@@ -276,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7dea83b245ac9bd0800000000000000
-      internalID: -2622039177137820291
+      spriteID: 0427328b5f10f7220800000000000000
+      internalID: 2485707674199749184
       vertices: []
       indices: 
       edges: []

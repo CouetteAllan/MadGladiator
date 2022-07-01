@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -877539235942788304
     second: Tauros teigneux-Sheet_4
+  - first:
+      213: -4185188933697228610
+    second: Taureau_Running_Right_0
+  - first:
+      213: 5856727168835994325
+    second: Taureau_Running_Right_1
+  - first:
+      213: 1141371199397618159
+    second: Taureau_Running_Right_2
+  - first:
+      213: 7000005864449128405
+    second: Taureau_Running_Right_3
+  - first:
+      213: -2851187745091107221
+    second: Taureau_Running_Right_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,106 +121,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet_0
+      name: Taureau_Running_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd8be06fccd944f0800000000000000
-      internalID: -843900671912866349
+      spriteID: eb0b411c6d83be5c0800000000000000
+      internalID: -4185188933697228610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet_1
+      name: Taureau_Running_Right_1
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 451ab631b0c701490800000000000000
-      internalID: -7777580169456541356
+      spriteID: 5d249dc6456474150800000000000000
+      internalID: 5856727168835994325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet_2
+      name: Taureau_Running_Right_2
       rect:
         serializedVersion: 2
         x: 800
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1032f99665f1a2df0800000000000000
-      internalID: -204316377092250879
+      spriteID: fe1e4f00f07f6df00800000000000000
+      internalID: 1141371199397618159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet_3
+      name: Taureau_Running_Right_3
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36f1505116bef08c0800000000000000
-      internalID: -4030744339276292253
+      spriteID: 5d734200f34052160800000000000000
+      internalID: 7000005864449128405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet_4
+      name: Taureau_Running_Right_4
       rect:
         serializedVersion: 2
         x: 1600
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 033992dd6ba52d3f0800000000000000
-      internalID: -877539235942788304
+      spriteID: b66c5e12adb8e68d0800000000000000
+      internalID: -2851187745091107221
       vertices: []
       indices: 
       edges: []

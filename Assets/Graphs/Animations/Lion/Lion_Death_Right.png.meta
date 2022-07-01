@@ -44,6 +44,48 @@ TextureImporter:
   - first:
       213: 19655467146923965
     second: Lion Agresse mort -Sheet_13
+  - first:
+      213: 8026121372935612708
+    second: Lion_Death_Right_0
+  - first:
+      213: 3672178619398795150
+    second: Lion_Death_Right_1
+  - first:
+      213: -683655173566818684
+    second: Lion_Death_Right_2
+  - first:
+      213: 4448110379540203873
+    second: Lion_Death_Right_3
+  - first:
+      213: 3967078351130802935
+    second: Lion_Death_Right_4
+  - first:
+      213: -4295198021005769609
+    second: Lion_Death_Right_5
+  - first:
+      213: 1078685307920164001
+    second: Lion_Death_Right_6
+  - first:
+      213: 9151778079215254346
+    second: Lion_Death_Right_7
+  - first:
+      213: 9212328236295029737
+    second: Lion_Death_Right_8
+  - first:
+      213: 6825297237718390187
+    second: Lion_Death_Right_9
+  - first:
+      213: -6762057102855694532
+    second: Lion_Death_Right_10
+  - first:
+      213: -3259586468924370293
+    second: Lion_Death_Right_11
+  - first:
+      213: -4609690820518297164
+    second: Lion_Death_Right_12
+  - first:
+      213: 2468587660047602067
+    second: Lion_Death_Right_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,295 +175,295 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_0
+      name: Lion_Death_Right_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63c5e559dbeed0630800000000000000
-      internalID: 3895031750767565878
+      spriteID: 4296ffd4dd2826f60800000000000000
+      internalID: 8026121372935612708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_1
+      name: Lion_Death_Right_1
       rect:
         serializedVersion: 2
         x: 600
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 007bd1ecf0603e6c0800000000000000
-      internalID: -4115438969534171392
+      spriteID: e8fac019ff236f230800000000000000
+      internalID: 3672178619398795150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_2
+      name: Lion_Death_Right_2
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 440e1edc22011f180800000000000000
-      internalID: -9083461231760515004
+      spriteID: 48611b6ed3b2386f0800000000000000
+      internalID: -683655173566818684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_3
+      name: Lion_Death_Right_3
       rect:
         serializedVersion: 2
         x: 1800
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d74457e6cf62b7b80800000000000000
-      internalID: -8396074214675364739
+      spriteID: 169c836b2dcdabd30800000000000000
+      internalID: 4448110379540203873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_4
+      name: Lion_Death_Right_4
       rect:
         serializedVersion: 2
         x: 2400
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93ca2c3b02a39ac0800000000000000
-      internalID: -3849555087333866595
+      spriteID: 7fa3b4bedb4ed0730800000000000000
+      internalID: 3967078351130802935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_5
+      name: Lion_Death_Right_5
       rect:
         serializedVersion: 2
         x: 3000
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ad6071ed523630d0800000000000000
-      internalID: -3443509486282576480
+      spriteID: 7748df528246464c0800000000000000
+      internalID: -4295198021005769609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_6
+      name: Lion_Death_Right_6
       rect:
         serializedVersion: 2
         x: 3600
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3441a62fc46394eb0800000000000000
-      internalID: -4735193829090913213
+      spriteID: 1a4a30b829248fe00800000000000000
+      internalID: 1078685307920164001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_7
+      name: Lion_Death_Right_7
       rect:
         serializedVersion: 2
         x: 4200
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aab2d2fd008af08a0800000000000000
-      internalID: -6336661428989252694
+      spriteID: a4bf4d2cca5a10f70800000000000000
+      internalID: 9151778079215254346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_8
+      name: Lion_Death_Right_8
       rect:
         serializedVersion: 2
         x: 4800
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abb06952281353a40800000000000000
-      internalID: 5347234567618431930
+      spriteID: 9e38aaec8b3c8df70800000000000000
+      internalID: 9212328236295029737
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_9
+      name: Lion_Death_Right_9
       rect:
         serializedVersion: 2
         x: 5400
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 834c24f2a7b04b890800000000000000
-      internalID: -7443311664729766856
+      spriteID: ba5d8acfca358be50800000000000000
+      internalID: 6825297237718390187
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_10
+      name: Lion_Death_Right_10
       rect:
         serializedVersion: 2
         x: 6000
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29fb53e346b62e700800000000000000
-      internalID: 568134581286715282
+      spriteID: c37116154e85822a0800000000000000
+      internalID: -6762057102855694532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_11
+      name: Lion_Death_Right_11
       rect:
         serializedVersion: 2
         x: 6600
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0dc4a55baf56e96c0800000000000000
-      internalID: -4134755280420713264
+      spriteID: b82d715606f93c2d0800000000000000
+      internalID: -3259586468924370293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_12
+      name: Lion_Death_Right_12
       rect:
         serializedVersion: 2
         x: 7200
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f10f9ca08d0be5960800000000000000
-      internalID: 7592700463733665823
+      spriteID: 4b1c0a63f961700c0800000000000000
+      internalID: -4609690820518297164
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Lion Agresse mort -Sheet_13
+      name: Lion_Death_Right_13
       rect:
         serializedVersion: 2
         x: 7800
         y: 0
         width: 600
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbfcf211b84d54000800000000000000
-      internalID: 19655467146923965
+      spriteID: 391dc0ec56f224220800000000000000
+      internalID: 2468587660047602067
       vertices: []
       indices: 
       edges: []

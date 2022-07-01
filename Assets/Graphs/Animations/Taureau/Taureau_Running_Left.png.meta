@@ -17,6 +17,21 @@ TextureImporter:
   - first:
       213: -107757917236369280
     second: Tauros teigneux-Sheet Left_4
+  - first:
+      213: 5867157935281548484
+    second: Taureau_Running_Left_0
+  - first:
+      213: -4666910389273368981
+    second: Taureau_Running_Left_1
+  - first:
+      213: 5290013583021043124
+    second: Taureau_Running_Left_2
+  - first:
+      213: 8967790238843819554
+    second: Taureau_Running_Left_3
+  - first:
+      213: -854351674239235516
+    second: Taureau_Running_Left_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -106,106 +121,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet Left_0
+      name: Taureau_Running_Left_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8495ff4ba83758900800000000000000
-      internalID: 686081557823183176
+      spriteID: 4cc229d7e055c6150800000000000000
+      internalID: 5867157935281548484
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet Left_1
+      name: Taureau_Running_Left_1
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3300017e9aab41f60800000000000000
-      internalID: 8004227676633038899
+      spriteID: b66e7c03abdcb3fb0800000000000000
+      internalID: -4666910389273368981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet Left_2
+      name: Taureau_Running_Left_2
       rect:
         serializedVersion: 2
         x: 800
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca78115252b86ca10800000000000000
-      internalID: 1929382482026792876
+      spriteID: 4bde5f87357e96940800000000000000
+      internalID: 5290013583021043124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet Left_3
+      name: Taureau_Running_Left_3
       rect:
         serializedVersion: 2
         x: 1200
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 025681b12ca6871f0800000000000000
-      internalID: -1046969531452857056
+      spriteID: 226508675bdf37c70800000000000000
+      internalID: 8967790238843819554
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Tauros teigneux-Sheet Left_4
+      name: Taureau_Running_Left_4
       rect:
         serializedVersion: 2
         x: 1600
         y: 0
         width: 400
         height: 500
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088e365ceba218ef0800000000000000
-      internalID: -107757917236369280
+      spriteID: 44ac5b7cdabb424f0800000000000000
+      internalID: -854351674239235516
       vertices: []
       indices: 
       edges: []
