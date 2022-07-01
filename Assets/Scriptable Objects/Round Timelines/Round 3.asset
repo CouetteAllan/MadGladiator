@@ -18,18 +18,18 @@ MonoBehaviour:
     positionIndex: -1
     patternIndex: -1
   - enemyName: 0
-    spawnTime: 3
+    spawnTime: 2
+    positionIndex: -1
+    patternIndex: -1
+  - enemyName: 0
+    spawnTime: 4
+    positionIndex: -1
+    patternIndex: 6
+  - enemyName: 0
+    spawnTime: 5
     positionIndex: -1
     patternIndex: -1
   - enemyName: 0
     spawnTime: 6
-    positionIndex: -1
-    patternIndex: 6
-  - enemyName: 0
-    spawnTime: 9
-    positionIndex: -1
-    patternIndex: -1
-  - enemyName: 0
-    spawnTime: 13
     positionIndex: -1
     patternIndex: 0

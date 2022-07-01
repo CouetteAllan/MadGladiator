@@ -22,7 +22,7 @@ MonoBehaviour:
     positionIndex: -1
     patternIndex: -1
   - enemyName: 4
-    spawnTime: 2
+    spawnTime: 3
     positionIndex: -1
     patternIndex: -1
   - enemyName: 4
@@ -30,7 +30,7 @@ MonoBehaviour:
     positionIndex: -1
     patternIndex: -1
   - enemyName: 4
-    spawnTime: 4
+    spawnTime: 5
     positionIndex: -1
     patternIndex: -1
   - enemyName: 4
@@ -38,6 +38,22 @@ MonoBehaviour:
     positionIndex: -1
     patternIndex: -1
   - enemyName: 4
-    spawnTime: 6
+    spawnTime: 5
+    positionIndex: -1
+    patternIndex: -1
+  - enemyName: 4
+    spawnTime: 5
+    positionIndex: -1
+    patternIndex: -1
+  - enemyName: 4
+    spawnTime: 7
+    positionIndex: -1
+    patternIndex: -1
+  - enemyName: 4
+    spawnTime: 7
+    positionIndex: -1
+    patternIndex: -1
+  - enemyName: 4
+    spawnTime: 8
     positionIndex: -1
     patternIndex: -1

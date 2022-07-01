@@ -18,10 +18,10 @@ MonoBehaviour:
     positionIndex: -1
     patternIndex: -1
   - enemyName: 1
-    spawnTime: 4
+    spawnTime: 2
     positionIndex: -1
     patternIndex: -1
   - enemyName: 1
-    spawnTime: 8
+    spawnTime: 4
     positionIndex: -1
     patternIndex: 0
