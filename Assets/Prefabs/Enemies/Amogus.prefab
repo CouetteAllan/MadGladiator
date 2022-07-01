@@ -586,9 +586,9 @@ GameObject:
   - component: {fileID: -3546850087453233362}
   - component: {fileID: 6861484186971061902}
   - component: {fileID: 7903561733657730426}
-  - component: {fileID: 6585248132034387948}
+  - component: {fileID: 997704051678115587}
   m_Layer: 6
-  m_Name: Heavy
+  m_Name: Taureau
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,12 +649,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: -7800176321809778788, guid: 90852366ef842cb429f5b70499b66140, type: 3}
+  m_Sprite: {fileID: -4185188933697228610, guid: c097f4f58b7a7b24da1fb470145abcb5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3.3333333, y: 3.3333333}
+  m_Size: {x: 2, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -673,24 +673,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  speed: 0.15
+  speed: 0.2
   memorizeZoneMask:
     serializedVersion: 2
     m_Bits: 128
-  name: Gladiateur Lourd
-  scoreEarned: 400
-  damages: 3
-  timeDuringDefense: 8
-  imageEncounter: {fileID: 21300000, guid: 2f529b334f9b0c9448316463def89358, type: 3}
-  deathSound: {fileID: 0}
+  name: Taureau
+  scoreEarned: 100
+  damages: 1
+  timeDuringDefense: 6
+  imageEncounter: {fileID: 21300000, guid: a58b19d45e79a444e9a6edd66b3586a8, type: 3}
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}
   - {fileID: 11400000, guid: b933b580691223b408933bfe062d85ef, type: 2}
   - {fileID: 11400000, guid: 4d9352426b7807a4abffa79a528a4018, type: 2}
   - {fileID: 11400000, guid: 0cac91fc7d29835428964c96960bf0f8, type: 2}
-  - {fileID: 11400000, guid: 526c0bfd20a760e479fe9448c092aebe, type: 2}
-  - {fileID: 11400000, guid: 419c83f3ef761164eb4f88b21d827f35, type: 2}
+  - {fileID: 11400000, guid: 13b30e7ca2a9a894a86ab4ffdf6a75ed, type: 2}
+  - {fileID: 11400000, guid: 30d549ffec371234e955bdf8ca18e3fd, type: 2}
   inputsKeyRenderers:
   - {fileID: 186510243164176525}
   - {fileID: 7508394569575224261}
@@ -712,7 +711,7 @@ Animator:
   m_GameObject: {fileID: 2633401135638313825}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 93e8b44009757194482f70fa898908e6, type: 2}
+  m_Controller: {fileID: 9100000, guid: 67576c7d0d8bb0e4dbe793868fe653a5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -734,9 +733,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.5}
+  m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.3
 --- !u!50 &7903561733657730426
 Rigidbody2D:
   serializedVersion: 4
@@ -758,7 +757,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!82 &6585248132034387948
+--- !u!82 &997704051678115587
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1916,7 +1915,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1.7}
+  m_AnchoredPosition: {x: 0, y: 1.5}
   m_SizeDelta: {x: 10, y: 2.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &4406404508545669660
