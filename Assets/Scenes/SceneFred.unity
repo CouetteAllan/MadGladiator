@@ -424,6 +424,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3369a5a0ce06f104bad67fa35ba8329d, type: 2}
   - {fileID: 11400000, guid: 9fee3f2f10bc3924293ac67a2144c65e, type: 2}
   - {fileID: 11400000, guid: f4ba3c49e654f39439f0765b9bdf9bb1, type: 2}
+  - {fileID: 11400000, guid: 2f30e26682b19d54e836fd3200dd8081, type: 2}
   updateEndRoundtime: 0
   updateTime: 0.01
   delayTimeAfterFailed: 0.2
@@ -892,6 +893,7 @@ MonoBehaviour:
   - {fileID: -8752863225296325225, guid: 79981df70dfb46e419a11212b293c673, type: 3}
   - {fileID: -8752863225296325225, guid: 696a0f2545c99f447a1f1b96d10fe717, type: 3}
   - {fileID: -8752863225296325225, guid: e832cb8e1cfe66c4195fd9f8658abd8a, type: 3}
+  - {fileID: -8752863225296325225, guid: 3fc4ab67a3d62fd4c8a1ed3ea8ecbb53, type: 3}
 --- !u!1001 &1175673332
 PrefabInstance:
   m_ObjectHideFlags: 0

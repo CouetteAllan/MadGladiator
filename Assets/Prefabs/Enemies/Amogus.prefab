@@ -673,15 +673,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetPosition: {x: 0, y: 0, z: 0}
-  speed: 0.2
+  speed: 0.8
   memorizeZoneMask:
     serializedVersion: 2
     m_Bits: 128
-  name: Taureau
+  name: Amogus
   scoreEarned: 100
   damages: 1
   timeDuringDefense: 6
-  imageEncounter: {fileID: 21300000, guid: a58b19d45e79a444e9a6edd66b3586a8, type: 3}
+  imageEncounter: {fileID: 21300000, guid: 9ca0109e875e252489aebc4a3648b2f5, type: 3}
   deathSound: {fileID: 0}
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
