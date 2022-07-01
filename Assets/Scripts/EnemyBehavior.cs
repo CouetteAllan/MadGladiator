@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyBehavior : MonoBehaviour {
     #region Fields
@@ -46,8 +47,10 @@ public class EnemyBehavior : MonoBehaviour {
         {
             foreach (var item in inputsKeyRenderers)
             {
-                var color = item.GetChild(0).GetComponent<TextMeshProUGUI>().color
-                color = new Color(0, 0, 0, ((100 * speed )/255) * Time.deltaTime);
+                var colorImage = item.GetComponent<Image>().color;
+                colorImage = new Color(colorImage.r, colorImage.g, colorImage.b, colorImage.a - (((100 * speed * 12 )/255) * Time.deltaTime));
+                item.GetComponent<Image>().color = colorImage;
+                item.GetChild(0).GetComponent<TextMeshProUGUI>().color = colorImage;
             }
         }
 
@@ -89,14 +92,14 @@ public class EnemyBehavior : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(memorizeZoneMask == (memorizeZoneMask | (1 << collision.gameObject.layer))) {
-            StartCoroutine(HideInputsPattern());
             inMemorizeZone = true;
+            StartCoroutine(HideInputsPattern());
         }
     }
 
     IEnumerator HideInputsPattern() {
         foreach (var item in inputsKeyRenderers) {
-            item.gameObject.SetActive(false);
+            //item.gameObject.SetActive(false);
         }
         yield return null;
     }
