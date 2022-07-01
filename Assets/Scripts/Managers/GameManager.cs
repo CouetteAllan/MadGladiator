@@ -50,6 +50,10 @@ public class GameManager : MonoBehaviour {
             UIManager.Instance.UpdateUI((int)oldState, (int)currentGameState);
             switch (currentGameState) {
                 case GameStates.MainMenu:
+                    foreach (var item in GameObject.FindGameObjectsWithTag("Enemy")) {
+                        Destroy(item);
+                    }
+                    StopAllCoroutines();
                     Time.timeScale = 1f;
                     Init();
                     break;
@@ -67,10 +71,6 @@ public class GameManager : MonoBehaviour {
 
                 case GameStates.GameOver:
                     Time.timeScale = 0f;
-                    foreach (var item in GameObject.FindGameObjectsWithTag("Enemy")) {
-                        Destroy(item);
-                    }
-                    StopAllCoroutines();
                     break;
 
                 case GameStates.Defense:
