@@ -681,7 +681,7 @@ MonoBehaviour:
   scoreEarned: 400
   damages: 3
   timeDuringDefense: 8
-  imageEncounter: {fileID: 4622327325446795268, guid: 4707b48689f7d184381fb10de929d6fb, type: 3}
+  imageEncounter: {fileID: 21300000, guid: 2f529b334f9b0c9448316463def89358, type: 3}
   deathSound: {fileID: 0}
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}

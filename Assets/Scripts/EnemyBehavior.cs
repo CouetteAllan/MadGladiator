@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyBehavior : MonoBehaviour {
     #region Fields
@@ -9,6 +10,7 @@ public class EnemyBehavior : MonoBehaviour {
     public Vector3 targetPosition = new Vector2(0f, 0f);
     [SerializeField] float speed = 0.1f;
     [SerializeField] LayerMask memorizeZoneMask;
+    private bool inMemorizeZone;
 
     [Header("Stats")]
     public new string name = "EnemyName";
@@ -41,6 +43,17 @@ public class EnemyBehavior : MonoBehaviour {
     void Update() {
         if(!stopMoving)
             this.transform.position = Vector2.Lerp(this.transform.position, targetPosition, speed * Time.deltaTime);
+        if (inMemorizeZone)
+        {
+            foreach (var item in inputsKeyRenderers)
+            {
+                var colorImage = item.GetComponent<Image>().color;
+                colorImage = new Color(colorImage.r, colorImage.g, colorImage.b, colorImage.a - (((100 * speed * 12 )/255) * Time.deltaTime));
+                item.GetComponent<Image>().color = colorImage;
+                item.GetChild(0).GetComponent<TextMeshProUGUI>().color = colorImage;
+            }
+        }
+
     }
 
     void InitAnim() {
@@ -79,13 +92,14 @@ public class EnemyBehavior : MonoBehaviour {
 
     private void OnTriggerEnter2D(Collider2D collision) {
         if(memorizeZoneMask == (memorizeZoneMask | (1 << collision.gameObject.layer))) {
+            inMemorizeZone = true;
             StartCoroutine(HideInputsPattern());
         }
     }
 
     IEnumerator HideInputsPattern() {
         foreach (var item in inputsKeyRenderers) {
-            item.gameObject.SetActive(false);
+            //item.gameObject.SetActive(false);
         }
         yield return null;
     }
