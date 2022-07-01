@@ -125,6 +125,7 @@ public class GameManager : MonoBehaviour {
         } else {
             Damaged(enemy.damages);
             player.GetComponent<CamShake>().Shake(0.1f, 0.25f);
+            player.GetComponent<Animator>().SetTrigger("Hurt");
         }
 
         CurrentGameStates = GameStates.InGame;

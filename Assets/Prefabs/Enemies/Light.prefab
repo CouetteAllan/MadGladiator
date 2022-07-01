@@ -680,6 +680,7 @@ MonoBehaviour:
   scoreEarned: 150
   damages: 1
   timeDuringDefense: 7
+  imageEncounter: {fileID: 3767271159171595083, guid: aaa9d98878198a143905808d8d38ffc4, type: 3}
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}

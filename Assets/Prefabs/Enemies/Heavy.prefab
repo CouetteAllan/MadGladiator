@@ -676,10 +676,11 @@ MonoBehaviour:
   memorizeZoneMask:
     serializedVersion: 2
     m_Bits: 128
-  name: Gladiateur en armure lourde
+  name: Gladiateur Lourd
   scoreEarned: 400
   damages: 3
   timeDuringDefense: 8
+  imageEncounter: {fileID: 4622327325446795268, guid: 4707b48689f7d184381fb10de929d6fb, type: 3}
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}

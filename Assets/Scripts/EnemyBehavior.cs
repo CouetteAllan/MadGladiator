@@ -15,6 +15,7 @@ public class EnemyBehavior : MonoBehaviour {
     public int scoreEarned = 100;
     public int damages = 1;
     public float timeDuringDefense = 4f;
+    public Sprite imageEncounter;
 
     [Header("Inputs")]
     [SerializeField] List<ScriptableInputsPattern> scriptableInputsPatterns;

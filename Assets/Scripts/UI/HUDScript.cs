@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Playables;
+using UnityEngine.UI;
 using System;
 
 public class HUDScript : MonoBehaviour {
@@ -15,12 +16,12 @@ public class HUDScript : MonoBehaviour {
     [SerializeField] TextMeshProUGUI encounterText;
     [SerializeField] TimerBar timerBar;
     [SerializeField] Transform[] inputsKeyRenderers;
+    [SerializeField] Image encounterImage;
     [Header("Rounds")]
     [SerializeField] GameObject startRound;
     [SerializeField] GameObject endRound;
     [Header("GameOver")]
     [SerializeField] TextMeshProUGUI gameOverScoreText;
-    private int actualIndex = -1;
 
     private float timerAnimMax = 1.1f;
     private float timerAnim;
@@ -38,8 +39,9 @@ public class HUDScript : MonoBehaviour {
         DisplayInputPatternUI(enemy);
         encounterText.text = enemy.name + " vous attaque ! Défendez vous !";
         timerBar.SetTimer(enemy.timeDuringDefense);
-        actualIndex = 0;
         timerAnim = timerAnimMax;
+        if(enemy.imageEncounter != null)
+            encounterImage.sprite = enemy.imageEncounter;
     }
 
 
@@ -56,12 +58,13 @@ public class HUDScript : MonoBehaviour {
     public void EndDisplay() {
         StopAllCoroutines();
         ResetUIPattern();
-        actualIndex = -1;
     }
 
     private void ResetUIPattern() {
         foreach (var item in inputsKeyRenderers) {
             item.GetComponent<TextMeshProUGUI>().SetText("?");
+            item.GetComponent<TextMeshProUGUI>().color = new Color32(255, 236, 95,255);
+            item.GetComponent<TextMeshProUGUI>().fontSize = 80;
         }
     }
 
@@ -87,8 +90,8 @@ public class HUDScript : MonoBehaviour {
             if (Input.GetKey(pattern.inputs[index])) {
                 inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().SetText(chars[index].ToString());
                 inputsKeyRenderers[index].GetComponent<TextMeshProUGUI>().color = new Color32(86, 95, 243, 250);
-
                 inputsKeyRenderers[index].GetComponent<Animator>().SetTrigger("Bounce");
+
                 index++;
                 yield return new WaitForSecondsRealtime(GameManager.Instance.updateTime);
             } else if (Input.anyKey) {
