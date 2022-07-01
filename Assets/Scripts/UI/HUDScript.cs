@@ -20,6 +20,8 @@ public class HUDScript : MonoBehaviour {
     [Header("Rounds")]
     [SerializeField] GameObject startRound;
     [SerializeField] GameObject endRound;
+    [SerializeField] TextMeshProUGUI startRoundText;
+    [SerializeField] TextMeshProUGUI endRoundText;
     [Header("GameOver")]
     [SerializeField] TextMeshProUGUI gameOverScoreText;
 
@@ -105,9 +107,11 @@ public class HUDScript : MonoBehaviour {
     public void SetStartRound(bool b) {
         groups[1].SetActive(!b);
         startRound.SetActive(b);
+        startRoundText.SetText("Début du round " + (GameManager.Instance.round + 1) + " ! ");
     }
     public void SetEndRound(bool b) {
         groups[1].SetActive(!b);
         endRound.SetActive(b);
+        startRoundText.SetText("Fin du round " + (GameManager.Instance.round + 1) + " ! ");
     }
 }
