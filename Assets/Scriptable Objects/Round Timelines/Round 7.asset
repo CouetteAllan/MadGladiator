@@ -13,31 +13,31 @@ MonoBehaviour:
   m_Name: Round 7
   m_EditorClassIdentifier: 
   events:
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 0
     positionIndex: -1
     patternIndex: -1
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 2
     positionIndex: -1
     patternIndex: -1
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 4
     positionIndex: -1
     patternIndex: -1
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 6
     positionIndex: -1
     patternIndex: -1
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 8
     positionIndex: -1
     patternIndex: -1
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 9
     positionIndex: -1
     patternIndex: -1
-  - enemyName: -1
+  - enemyName: 4
     spawnTime: 11
     positionIndex: -1
     patternIndex: -1

@@ -24,6 +24,7 @@ public class RoundTimeline : ScriptableObject {
             Light = 1,
             Lion = 2,
             Taureau = 3,
+            Amogus = 4,
         }
         public enum SpawnPosition {
             Random = -1,

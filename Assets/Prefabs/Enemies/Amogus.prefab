@@ -588,7 +588,7 @@ GameObject:
   - component: {fileID: 7903561733657730426}
   - component: {fileID: 997704051678115587}
   m_Layer: 6
-  m_Name: Taureau
+  m_Name: Amogus
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -649,7 +649,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: -4185188933697228610, guid: c097f4f58b7a7b24da1fb470145abcb5, type: 3}
+  m_Sprite: {fileID: -9102751391436574801, guid: 9377f3039da7f1549bfe5fedd038affb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -682,14 +682,9 @@ MonoBehaviour:
   damages: 1
   timeDuringDefense: 6
   imageEncounter: {fileID: 21300000, guid: a58b19d45e79a444e9a6edd66b3586a8, type: 3}
+  deathSound: {fileID: 0}
   scriptableInputsPatterns:
   - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
-  - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}
-  - {fileID: 11400000, guid: b933b580691223b408933bfe062d85ef, type: 2}
-  - {fileID: 11400000, guid: 4d9352426b7807a4abffa79a528a4018, type: 2}
-  - {fileID: 11400000, guid: 0cac91fc7d29835428964c96960bf0f8, type: 2}
-  - {fileID: 11400000, guid: 13b30e7ca2a9a894a86ab4ffdf6a75ed, type: 2}
-  - {fileID: 11400000, guid: 30d549ffec371234e955bdf8ca18e3fd, type: 2}
   inputsKeyRenderers:
   - {fileID: 186510243164176525}
   - {fileID: 7508394569575224261}
@@ -711,7 +706,7 @@ Animator:
   m_GameObject: {fileID: 2633401135638313825}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 67576c7d0d8bb0e4dbe793868fe653a5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2497f0444c9262b4f9903f6e4b83269e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
