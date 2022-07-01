@@ -16,6 +16,7 @@ public class EnemyBehavior : MonoBehaviour {
     public int damages = 1;
     public float timeDuringDefense = 4f;
     public Sprite imageEncounter;
+    public AudioSource deathSound;
 
     [Header("Inputs")]
     [SerializeField] List<ScriptableInputsPattern> scriptableInputsPatterns;
@@ -26,7 +27,7 @@ public class EnemyBehavior : MonoBehaviour {
             return ChoosenPattern.inputsString.ToCharArray();
         }
     }
-    private bool dead = false;
+    private bool stopMoving = false;
 
     [Header("Sprite Renderers")]
     [SerializeField] Animator animator;
@@ -34,10 +35,11 @@ public class EnemyBehavior : MonoBehaviour {
     #endregion
     void Start() {
         InitAnim();
+        deathSound = this.GetComponent<AudioSource>();
     }
 
     void Update() {
-        if(!dead)
+        if(!stopMoving)
             this.transform.position = Vector2.Lerp(this.transform.position, targetPosition, speed * Time.deltaTime);
     }
 
@@ -91,10 +93,11 @@ public class EnemyBehavior : MonoBehaviour {
     public void Kill(bool defenseSuceeded) {
         if (defenseSuceeded) {
             animator.SetTrigger("Death");
-            dead = true;
+            stopMoving = true;
+            deathSound.Play();
         } else {
             animator.SetTrigger("Attack");
-            dead = true;
+            stopMoving = true;
         }
 
         Destroy(this.gameObject, animator.GetCurrentAnimatorClipInfo(0).Length);
