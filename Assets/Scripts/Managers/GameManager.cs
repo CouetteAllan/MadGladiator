@@ -97,6 +97,7 @@ public class GameManager : MonoBehaviour {
         score = 0;
         round = 0;
         lives = 4;
+        if (player == null) player = GameObject.Find("Gladiator").GetComponent<MainCharacter>();
         player.InitAnim();
         player.animDone = false;
     }
@@ -130,9 +131,9 @@ public class GameManager : MonoBehaviour {
             AddScore(enemy.scoreEarned);
         } else {
             Damaged(enemy.damages);
+            player.GetComponent<Animator>().SetInteger("Lives", GetLives());
             player.GetComponent<CamShake>().Shake(0.1f, 0.25f);
             player.GetComponent<Animator>().SetTrigger("Hurt");
-            player.GetComponent<Animator>().SetInteger("Lives", GetLives());
         }
 
         CurrentGameStates = GameStates.InGame;

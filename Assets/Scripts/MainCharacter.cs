@@ -28,6 +28,7 @@ public class MainCharacter : MonoBehaviour
         GameManager.Instance.SetPlayer(this);
     }
     public void InitAnim() {
+        Debug.Log(Lives);
         animator.SetInteger("Lives", Lives);
     }
     

@@ -112,6 +112,6 @@ public class HUDScript : MonoBehaviour {
     public void SetEndRound(bool b) {
         groups[1].SetActive(!b);
         endRound.SetActive(b);
-        startRoundText.SetText("Fin du round " + (GameManager.Instance.round + 1) + " ! ");
+        endRoundText.SetText("Fin du round " + (GameManager.Instance.round) + " ! ");
     }
 }
