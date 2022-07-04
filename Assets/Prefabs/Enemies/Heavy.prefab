@@ -684,7 +684,6 @@ MonoBehaviour:
   imageEncounter: {fileID: 21300000, guid: 2f529b334f9b0c9448316463def89358, type: 3}
   deathSound: {fileID: 0}
   scriptableInputsPatterns:
-  - {fileID: 11400000, guid: 60d80fe0416125a4ca851c432a08785b, type: 2}
   - {fileID: 11400000, guid: b2caaab7d837573459129bda8062bebc, type: 2}
   - {fileID: 11400000, guid: b933b580691223b408933bfe062d85ef, type: 2}
   - {fileID: 11400000, guid: 4d9352426b7807a4abffa79a528a4018, type: 2}
@@ -768,7 +767,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 3279720222651362195, guid: bf02b0cdb963e6041858877193c33947, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 98e8d5633d40de8488ef82a41944f54f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 87a399c71e147314389265f88cf3a01f, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

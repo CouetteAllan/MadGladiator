@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour {
                     Time.timeScale = 1.0f;
                     if (oldState == GameStates.Pause) return;
                     if (oldState == GameStates.Defense) return;
-                    StartRoundTimeline();
+                    StartRoundTimeline(0);
                     break;
 
                 case GameStates.Pause:
@@ -97,6 +97,7 @@ public class GameManager : MonoBehaviour {
         score = 0;
         round = 0;
         lives = 4;
+        if (player == null) player = FindObjectOfType<MainCharacter>();
         player.InitAnim();
         player.animDone = false;
     }
@@ -130,9 +131,9 @@ public class GameManager : MonoBehaviour {
             AddScore(enemy.scoreEarned);
         } else {
             Damaged(enemy.damages);
+            player.GetComponent<Animator>().SetInteger("Lives", GetLives());
             player.GetComponent<CamShake>().Shake(0.1f, 0.25f);
             player.GetComponent<Animator>().SetTrigger("Hurt");
-            player.GetComponent<Animator>().SetInteger("Lives", GetLives());
         }
 
         CurrentGameStates = GameStates.InGame;
@@ -179,8 +180,7 @@ public class GameManager : MonoBehaviour {
         yield return new WaitForSeconds(timeEndRound);
         UIManager.Instance.SetEndRound(false);
         if (round >= roundTimelines.Count) {
-            Debug.Log("Plus de RoundTimeline");
-            //Ajouter Fin du jeu => voir credits
+            CurrentGameStates = GameStates.MainMenu;
             yield break;
         }
         StartRoundTimeline();

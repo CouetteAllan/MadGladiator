@@ -16,7 +16,7 @@ MonoBehaviour:
   - enemyName: 2
     spawnTime: 0
     positionIndex: -1
-    patternIndex: 1
+    patternIndex: 0
   - enemyName: 2
     spawnTime: 3
     positionIndex: -1
@@ -24,7 +24,7 @@ MonoBehaviour:
   - enemyName: 2
     spawnTime: 4
     positionIndex: -1
-    patternIndex: 6
+    patternIndex: 5
   - enemyName: 2
     spawnTime: 6
     positionIndex: -1

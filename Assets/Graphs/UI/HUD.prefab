@@ -3747,7 +3747,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back To Main Menu
+  m_text: Retour au menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 17cc6f9ea304f544eb61dd85f43a3fc5, type: 2}
   m_sharedMaterial: {fileID: 8347582956624741486, guid: 17cc6f9ea304f544eb61dd85f43a3fc5, type: 2}
@@ -3774,7 +3774,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.75
+  m_fontSize: 41
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4175,8 +4175,8 @@ RectTransform:
   m_Father: {fileID: 8588363642029319656}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 960.00006, y: -540}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -4484,9 +4484,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Graphistes :\nC\xE9cile Denave/ Calvin Ferriere/ Camille NGO\n\nProgrammeurs
-    :\nFr\xE9d\xE9ric Deiber/ Allan Couette\n\nMusique :\n\rKevin MacLeod - Future
-    Gladiator\r\n\r\nSFX :\r\nMyInstant.com\r\n"
+  m_text: "Graphistes :\nC\xE9cile Denave / Calvin Ferriere / Camille NGO\n\nProgrammeurs
+    :\nFr\xE9d\xE9ric Deiber / Allan Couette\n\nMusique :\nFuture Gladiator\r\npar
+    Kevin MacLeod\n\r\nSFX :\r\nSky Laughin\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 17cc6f9ea304f544eb61dd85f43a3fc5, type: 2}
   m_sharedMaterial: {fileID: 8347582956624741486, guid: 17cc6f9ea304f544eb61dd85f43a3fc5, type: 2}
@@ -4513,7 +4513,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 45.55
+  m_fontSize: 41.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5062,7 +5062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Back
+  m_text: 'Retour
 
 '
   m_isRightToLeft: 0
@@ -5091,7 +5091,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 54.65
+  m_fontSize: 41.25
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5960,7 +5960,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Back To Main Menu
+  m_text: Retour au menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 17cc6f9ea304f544eb61dd85f43a3fc5, type: 2}
   m_sharedMaterial: {fileID: 8347582956624741486, guid: 17cc6f9ea304f544eb61dd85f43a3fc5, type: 2}
@@ -5987,7 +5987,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 37.75
+  m_fontSize: 41
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

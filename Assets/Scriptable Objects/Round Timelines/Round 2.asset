@@ -16,12 +16,12 @@ MonoBehaviour:
   - enemyName: 1
     spawnTime: 0
     positionIndex: -1
-    patternIndex: 1
+    patternIndex: 0
   - enemyName: 1
     spawnTime: 4
     positionIndex: -1
-    patternIndex: 6
+    patternIndex: 5
   - enemyName: 1
     spawnTime: 8
     positionIndex: -1
-    patternIndex: 0
+    patternIndex: 2
